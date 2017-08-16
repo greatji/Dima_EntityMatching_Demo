@@ -1,0 +1,864 @@
+{"city": "los angeles", "addr": "435 s. la cienega blv.", "id": 0, "type": "american", "class": "0", "name": "arnie morton's of chicago"}
+{"city": "los angeles", "addr": "435 s. la cienega blvd.", "id": 1, "type": "steakhouses", "class": "0", "name": "arnie morton's of chicago"}
+{"city": "studio city", "addr": "12224 ventura blvd.", "id": 2, "type": "american", "class": "1", "name": "art's delicatessen"}
+{"city": "studio city", "addr": "12224 ventura blvd.", "id": 3, "type": "delis", "class": "1", "name": "art's deli"}
+{"city": "bel air", "addr": "701 stone canyon rd.", "id": 4, "type": "californian", "class": "2", "name": "hotel bel-air"}
+{"city": "bel air", "addr": "701 stone canyon rd.", "id": 5, "type": "californian", "class": "2", "name": "bel-air hotel"}
+{"city": "sherman oaks", "addr": "14016 ventura blvd.", "id": 6, "type": "french", "class": "3", "name": "cafe bizou"}
+{"city": "sherman oaks", "addr": "14016 ventura blvd.", "id": 7, "type": "french bistro", "class": "3", "name": "cafe bizou"}
+{"city": "los angeles", "addr": "624 s. la brea ave.", "id": 8, "type": "american", "class": "4", "name": "campanile"}
+{"city": "los angeles", "addr": "624 s. la brea ave.", "id": 9, "type": "californian", "class": "4", "name": "campanile"}
+{"city": "santa monica", "addr": "2709 main st.", "id": 10, "type": "french", "class": "5", "name": "chinois on main"}
+{"city": "santa monica", "addr": "2709 main st.", "id": 11, "type": "pacific new wave", "class": "5", "name": "chinois on main"}
+{"city": "los angeles", "addr": "6703 melrose ave.", "id": 12, "type": "californian", "class": "6", "name": "citrus"}
+{"city": "los angeles", "addr": "6703 melrose ave.", "id": 13, "type": "californian", "class": "6", "name": "citrus"}
+{"city": "hollywood", "addr": "8358 sunset blvd. west", "id": 14, "type": "american", "class": "7", "name": "fenix"}
+{"city": "w. hollywood", "addr": "8358 sunset blvd.", "id": 15, "type": "french (new)", "class": "7", "name": "fenix at the argyle"}
+{"city": "malibu", "addr": "23725 w. malibu rd.", "id": 16, "type": "californian", "class": "8", "name": "granita"}
+{"city": "malibu", "addr": "23725 w. malibu rd.", "id": 17, "type": "californian", "class": "8", "name": "granita"}
+{"city": "los angeles", "addr": "9560 dayton way", "id": 18, "type": "american", "class": "9", "name": "grill on the alley"}
+{"city": "beverly hills", "addr": "9560 dayton way", "id": 19, "type": "american (traditional)", "class": "9", "name": "grill  the"}
+{"city": "los angeles", "addr": "1972 n. hillhurst ave.", "id": 20, "type": "asian", "class": "10", "name": "restaurant katsu"}
+{"city": "los feliz", "addr": "1972 hillhurst ave.", "id": 21, "type": "japanese", "class": "10", "name": "katsu"}
+{"city": "los angeles", "addr": "903 n. la cienega blvd.", "id": 22, "type": "french", "class": "11", "name": "l'orangerie"}
+{"city": "w. hollywood", "addr": "903 n. la cienega blvd.", "id": 23, "type": "french (classic)", "class": "11", "name": "l'orangerie"}
+{"city": "los angeles", "addr": "8284 melrose ave.", "id": 24, "type": "french", "class": "12", "name": "le chardonnay"}
+{"city": "los angeles", "addr": "8284 melrose ave.", "id": 25, "type": "french bistro", "class": "12", "name": "le chardonnay (los angeles)"}
+{"city": "los angeles", "addr": "3rd st.", "id": 26, "type": "italian", "class": "13", "name": "locanda veneta"}
+{"city": "los angeles", "addr": "8638 w. third st.", "id": 27, "type": "italian", "class": "13", "name": "locanda veneta"}
+{"city": "beverly hills", "addr": "129 n. la cienega blvd.", "id": 28, "type": "asian", "class": "14", "name": "matsuhisa"}
+{"city": "beverly hills", "addr": "129 n. la cienega blvd.", "id": 29, "type": "seafood", "class": "14", "name": "matsuhisa"}
+{"city": "los angeles", "addr": "9001 santa monica blvd.", "id": 30, "type": "american", "class": "15", "name": "the palm"}
+{"city": "w. hollywood", "addr": "9001 santa monica blvd.", "id": 31, "type": "steakhouses", "class": "15", "name": "palm  the (los angeles)"}
+{"city": "los angeles", "addr": "5955 melrose ave.", "id": 32, "type": "californian", "class": "16", "name": "patina"}
+{"city": "los angeles", "addr": "5955 melrose ave.", "id": 33, "type": "californian", "class": "16", "name": "patina"}
+{"city": "los angeles", "addr": "1001 n. alameda st.", "id": 34, "type": "american", "class": "17", "name": "philippe's the original"}
+{"city": "chinatown", "addr": "1001 n. alameda st.", "id": 35, "type": "cafeterias", "class": "17", "name": "philippe the original"}
+{"city": "los angeles", "addr": "12969 ventura blvd.", "id": 36, "type": "french", "class": "18", "name": "pinot bistro"}
+{"city": "studio city", "addr": "12969 ventura blvd.", "id": 37, "type": "french bistro", "class": "18", "name": "pinot bistro"}
+{"city": "los angeles", "addr": "617 s. olive st.", "id": 38, "type": "italian", "class": "19", "name": "rex il ristorante"}
+{"city": "los angeles", "addr": "617 s. olive st.", "id": 39, "type": "nuova cucina italian", "class": "19", "name": "rex il ristorante"}
+{"city": "los angeles", "addr": "1114 horn ave.", "id": 40, "type": "californian", "class": "20", "name": "spago"}
+{"city": "w. hollywood", "addr": "8795 sunset blvd.", "id": 41, "type": "californian", "class": "20", "name": "spago (los angeles)"}
+{"city": "santa monica", "addr": "3115 pico blvd.", "id": 42, "type": "italian", "class": "21", "name": "valentino"}
+{"city": "santa monica", "addr": "3115 pico blvd.", "id": 43, "type": "italian", "class": "21", "name": "valentino"}
+{"city": "los angeles", "addr": "67 n. raymond ave.", "id": 44, "type": "asian", "class": "22", "name": "yujean kang's gourmet chinese cuisine"}
+{"city": "pasadena", "addr": "67 n. raymond ave.", "id": 45, "type": "chinese", "class": "22", "name": "yujean kang's"}
+{"city": "new york", "addr": "21 w. 52nd st.", "id": 46, "type": "american", "class": "23", "name": "21 club"}
+{"city": "new york city", "addr": "21 w. 52nd st.", "id": 47, "type": "american (new)", "class": "23", "name": "21 club"}
+{"city": "new york", "addr": "13 w. 54th st.", "id": 48, "type": "continental", "class": "24", "name": "aquavit"}
+{"city": "new york city", "addr": "13 w. 54th st.", "id": 49, "type": "scandinavian", "class": "24", "name": "aquavit"}
+{"city": "new york", "addr": "34 e. 61st st.", "id": 50, "type": "american", "class": "25", "name": "aureole"}
+{"city": "new york city", "addr": "34 e. 61st st.", "id": 51, "type": "american (new)", "class": "25", "name": "aureole"}
+{"city": "new york", "addr": "201 w. 83rd st.", "id": 52, "type": "coffee bar", "class": "26", "name": "cafe lalo"}
+{"city": "new york city", "addr": "201 w. 83rd st.", "id": 53, "type": "coffeehouses", "class": "26", "name": "cafe lalo"}
+{"city": "new york", "addr": "1 w. 67th st.", "id": 54, "type": "continental", "class": "27", "name": "cafe des artistes"}
+{"city": "new york city", "addr": "1 w. 67th st.", "id": 55, "type": "french (classic)", "class": "27", "name": "cafe des artistes"}
+{"city": "new york", "addr": "2450 broadway  between 90th and 91st sts.", "id": 56, "type": "italian", "class": "28", "name": "carmine's"}
+{"city": "new york city", "addr": "2450 broadway", "id": 57, "type": "italian", "class": "28", "name": "carmine's"}
+{"city": "new york", "addr": "854 7th ave.  between 54th and 55th sts.", "id": 58, "type": "delicatessen", "class": "29", "name": "carnegie deli"}
+{"city": "new york city", "addr": "854 seventh ave.", "id": 59, "type": "delis", "class": "29", "name": "carnegie deli"}
+{"city": "new york", "addr": "2 harrison st.  near hudson st.", "id": 60, "type": "american", "class": "30", "name": "chanterelle"}
+{"city": "new york city", "addr": "2 harrison st.", "id": 61, "type": "french (new)", "class": "30", "name": "chanterelle"}
+{"city": "new york", "addr": "20 e. 76th st.", "id": 62, "type": "french", "class": "31", "name": "daniel"}
+{"city": "new york city", "addr": "20 e. 76th st.", "id": 63, "type": "french (new)", "class": "31", "name": "daniel"}
+{"city": "new york", "addr": "210 e. 58th st.", "id": 64, "type": "asian", "class": "32", "name": "dawat"}
+{"city": "new york city", "addr": "210 e. 58th st.", "id": 65, "type": "indian", "class": "32", "name": "dawat"}
+{"city": "new york", "addr": "243 e. 58th st.", "id": 66, "type": "italian", "class": "33", "name": "felidia"}
+{"city": "new york city", "addr": "243 e. 58th st.", "id": 67, "type": "italian", "class": "33", "name": "felidia"}
+{"city": "new york", "addr": "99 e. 52nd st.", "id": 68, "type": "american", "class": "34", "name": "four seasons grill room"}
+{"city": "new york city", "addr": "99 e. 52nd st.", "id": 69, "type": "american (new)", "class": "34", "name": "four seasons"}
+{"city": "new york", "addr": "12 e. 12th st.", "id": 70, "type": "american", "class": "35", "name": "gotham bar & grill"}
+{"city": "new york city", "addr": "12 e. 12th st.", "id": 71, "type": "american (new)", "class": "35", "name": "gotham bar & grill"}
+{"city": "new york", "addr": "42 e. 20th st.  between park ave. s and broadway", "id": 72, "type": "american", "class": "36", "name": "gramercy tavern"}
+{"city": "new york city", "addr": "42 e. 20th st.", "id": 73, "type": "american (new)", "class": "36", "name": "gramercy tavern"}
+{"city": "new york", "addr": "402 w. 44th st.", "id": 74, "type": "tel caribbean", "class": "37", "name": "island spice"}
+{"city": "new york city", "addr": "402 w. 44th st.", "id": 75, "type": "caribbean", "class": "37", "name": "island spice"}
+{"city": "new york", "addr": "160 e. 64th st.", "id": 76, "type": "american", "class": "38", "name": "jo jo"}
+{"city": "new york city", "addr": "160 e. 64th st.", "id": 77, "type": "french bistro", "class": "38", "name": "jo jo"}
+{"city": "new york", "addr": "33 w. 55th st.", "id": 78, "type": "french", "class": "39", "name": "la caravelle"}
+{"city": "new york city", "addr": "33 w. 55th st.", "id": 79, "type": "french (classic)", "class": "39", "name": "la caravelle"}
+{"city": "new york", "addr": "60 w. 55th st.  between 5th and 6th ave.", "id": 80, "type": "french", "class": "40", "name": "la cote basque"}
+{"city": "new york city", "addr": "60 w. 55th st.", "id": 81, "type": "french (classic)", "class": "40", "name": "la cote basque"}
+{"city": "new york", "addr": "155 w. 51st st.", "id": 82, "type": "french", "class": "41", "name": "le bernardin"}
+{"city": "new york city", "addr": "155 w. 51st st.", "id": 83, "type": "seafood", "class": "41", "name": "le bernardin"}
+{"city": "new york", "addr": "160 central park s", "id": 84, "type": "french", "class": "42", "name": "les celebrites"}
+{"city": "new york city", "addr": "155 w. 58th st.", "id": 85, "type": "french (classic)", "class": "42", "name": "les celebrites"}
+{"city": "new york", "addr": "2 e. 55th st.", "id": 86, "type": "american", "class": "43", "name": "lespinasse"}
+{"city": "new york city", "addr": "2 e. 55th st.", "id": 87, "type": "asian", "class": "43", "name": "lespinasse (new york city)"}
+{"city": "new york", "addr": "249 e. 50th st.", "id": 88, "type": "french", "class": "44", "name": "lutece"}
+{"city": "new york city", "addr": "249 e. 50th st.", "id": 89, "type": "french (classic)", "class": "44", "name": "lutece"}
+{"city": "new york", "addr": "57 w. 58th st.", "id": 90, "type": "seafood", "class": "45", "name": "manhattan ocean club"}
+{"city": "new york city", "addr": "57 w. 58th st.", "id": 91, "type": "seafood", "class": "45", "name": "manhattan ocean club"}
+{"city": "new york", "addr": "405 e. 58th st.", "id": 92, "type": "american", "class": "46", "name": "march"}
+{"city": "new york city", "addr": "405 e. 58th st.", "id": 93, "type": "american (new)", "class": "46", "name": "march"}
+{"city": "new york", "addr": "102 5th ave.  between 15th and 16th sts.", "id": 94, "type": "american", "class": "47", "name": "mesa grill"}
+{"city": "new york city", "addr": "102 fifth ave.", "id": 95, "type": "southwestern", "class": "47", "name": "mesa grill"}
+{"city": "new york", "addr": "57 jane st.  off hudson st.", "id": 96, "type": "mexican", "class": "48", "name": "mi cocina"}
+{"city": "new york city", "addr": "57 jane st.", "id": 97, "type": "mexican", "class": "48", "name": "mi cocina"}
+{"city": "new york", "addr": "239 w. broadway  between walker and white sts.", "id": 98, "type": "french", "class": "49", "name": "montrachet"}
+{"city": "new york city", "addr": "239 w. broadway", "id": 99, "type": "french bistro", "class": "49", "name": "montrachet"}
+{"city": "new york", "addr": "55 e. 54th st.", "id": 100, "type": "seafood", "class": "50", "name": "oceana"}
+{"city": "new york city", "addr": "55 e. 54th st.", "id": 101, "type": "seafood", "class": "50", "name": "oceana"}
+{"city": "new york", "addr": "100 e. 63rd st.", "id": 102, "type": "american", "class": "51", "name": "park avenue cafe"}
+{"city": "new york city", "addr": "100 e. 63rd st.", "id": 103, "type": "american (new)", "class": "51", "name": "park avenue cafe (new york city)"}
+{"city": "new york", "addr": "182 w. 58th st.", "id": 104, "type": "french", "class": "52", "name": "petrossian"}
+{"city": "new york city", "addr": "182 w. 58th st.", "id": 105, "type": "russian", "class": "52", "name": "petrossian"}
+{"city": "new york", "addr": "35 w. 64th st.", "id": 106, "type": "mediterranean", "class": "53", "name": "picholine"}
+{"city": "new york city", "addr": "35 w. 64th st.", "id": 107, "type": "mediterranean", "class": "53", "name": "picholine"}
+{"city": "new york", "addr": "95 ave. a at 6th st.", "id": 108, "type": "seafood", "class": "54", "name": "pisces"}
+{"city": "new york city", "addr": "95 ave. a", "id": 109, "type": "seafood", "class": "54", "name": "pisces"}
+{"city": "new york", "addr": "30 rockefeller plaza", "id": 110, "type": "or 212/632-5100 american", "class": "55", "name": "rainbow room"}
+{"city": "new york city", "addr": "30 rockefeller plaza", "id": 111, "type": "american (new)", "class": "55", "name": "rainbow room"}
+{"city": "brooklyn", "addr": "1 water st. at the east river", "id": 112, "type": "american", "class": "56", "name": "river cafe"}
+{"city": "brooklyn", "addr": "1 water st.", "id": 113, "type": "american (new)", "class": "56", "name": "river cafe"}
+{"city": "new york", "addr": "240 central park s", "id": 114, "type": "italian", "class": "57", "name": "san domenico"}
+{"city": "new york city", "addr": "240 central park s.", "id": 115, "type": "italian", "class": "57", "name": "san domenico"}
+{"city": "new york", "addr": "156 2nd ave. at 10th st.", "id": 116, "type": "delicatessen", "class": "58", "name": "second avenue deli"}
+{"city": "new york city", "addr": "156 second ave.", "id": 117, "type": "delis", "class": "58", "name": "second avenue deli"}
+{"city": "new york", "addr": "11 e. 53rd st.", "id": 118, "type": "asian", "class": "59", "name": "seryna"}
+{"city": "new york city", "addr": "11 e. 53rd st.", "id": 119, "type": "japanese", "class": "59", "name": "seryna"}
+{"city": "new york", "addr": "43 w. 65th st.", "id": 120, "type": "asian", "class": "60", "name": "shun lee west"}
+{"city": "new york city", "addr": "155 e. 55th st.", "id": 121, "type": "chinese", "class": "60", "name": "shun lee palace"}
+{"city": "new york", "addr": "1110 3rd ave. at 65th st.", "id": 122, "type": "american", "class": "61", "name": "sign of the dove"}
+{"city": "new york city", "addr": "1110 third ave.", "id": 123, "type": "american (new)", "class": "61", "name": "sign of the dove"}
+{"city": "new york", "addr": "201 e. 49th st.", "id": 124, "type": "american", "class": "62", "name": "smith & wollensky"}
+{"city": "new york city", "addr": "797 third ave.", "id": 125, "type": "steakhouses", "class": "62", "name": "smith & wollensky"}
+{"city": "new york", "addr": "in central park at 67th st.", "id": 126, "type": "american", "class": "63", "name": "tavern on the green"}
+{"city": "new york city", "addr": "central park west", "id": 127, "type": "american (new)", "class": "63", "name": "tavern on the green"}
+{"city": "new york", "addr": "747 9th ave.  between 50th and 51st sts.", "id": 128, "type": "mediterranean", "class": "64", "name": "uncle nick's"}
+{"city": "new york city", "addr": "747 ninth ave.", "id": 129, "type": "greek", "class": "64", "name": "uncle nick's"}
+{"city": "new york", "addr": "21 e. 16th st.", "id": 130, "type": "american", "class": "65", "name": "union square cafe"}
+{"city": "new york city", "addr": "21 e. 16th st.", "id": 131, "type": "american (new)", "class": "65", "name": "union square cafe"}
+{"city": "new york", "addr": "152 w. 44th st.", "id": 132, "type": "american", "class": "66", "name": "virgil's"}
+{"city": "new york city", "addr": "152 w. 44th st.", "id": 133, "type": "bbq", "class": "66", "name": "virgil's real bbq"}
+{"city": "las vegas", "addr": "3200 las vegas blvd. s", "id": 134, "type": "asian", "class": "67", "name": "chin's"}
+{"city": "las vegas", "addr": "3200 las vegas blvd. s.", "id": 135, "type": "chinese", "class": "67", "name": "chin's"}
+{"city": "las vegas", "addr": "3799 las vegas blvd. s", "id": 136, "type": "southwestern", "class": "68", "name": "coyote cafe"}
+{"city": "las vegas", "addr": "3799 las vegas blvd. s.", "id": 137, "type": "southwestern", "class": "68", "name": "coyote cafe (las vegas)"}
+{"city": "las vegas", "addr": "3000 w. paradise rd.", "id": 138, "type": "continental", "class": "69", "name": "le montrachet"}
+{"city": "las vegas", "addr": "3000 paradise rd.", "id": 139, "type": "french bistro", "class": "69", "name": "le montrachet bistro"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s", "id": 140, "type": "continental", "class": "70", "name": "palace court"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s.", "id": 141, "type": "french (new)", "class": "70", "name": "palace court"}
+{"city": "las vegas", "addr": "200 e. fremont st.", "id": 142, "type": "seafood", "class": "71", "name": "second street grille"}
+{"city": "las vegas", "addr": "200 e. fremont st.", "id": 143, "type": "pacific rim", "class": "71", "name": "second street grill"}
+{"city": "las vegas", "addr": "2880 las vegas blvd. s", "id": 144, "type": "steak houses", "class": "72", "name": "steak house"}
+{"city": "las vegas", "addr": "2880 las vegas blvd. s.", "id": 145, "type": "steakhouses", "class": "72", "name": "steak house  the"}
+{"city": "las vegas", "addr": "2245 e. flamingo rd.", "id": 146, "type": "seafood", "class": "73", "name": "tillerman"}
+{"city": "las vegas", "addr": "2245 e. flamingo rd.", "id": 147, "type": "steakhouses", "class": "73", "name": "tillerman  the"}
+{"city": "atlanta", "addr": "2355 peachtree rd.  peachtree battle shopping center", "id": 148, "type": "italian", "class": "74", "name": "abruzzi"}
+{"city": "atlanta", "addr": "2355 peachtree rd. ne", "id": 149, "type": "italian", "class": "74", "name": "abruzzi"}
+{"city": "atlanta", "addr": "3125 piedmont rd.  near peachtree rd.", "id": 150, "type": "international", "class": "75", "name": "bacchanalia"}
+{"city": "atlanta", "addr": "3125 piedmont rd.", "id": 151, "type": "californian", "class": "75", "name": "bacchanalia"}
+{"city": "atlanta", "addr": "3130 piedmont road", "id": 152, "type": "american", "class": "76", "name": "bone's"}
+{"city": "atlanta", "addr": "3130 piedmont rd. ne", "id": 153, "type": "steakhouses", "class": "76", "name": "bone's restaurant"}
+{"city": "atlanta", "addr": "3393 peachtree rd.  lenox square mall  near neiman marcus", "id": 154, "type": "french", "class": "77", "name": "brasserie le coze"}
+{"city": "atlanta", "addr": "3393 peachtree rd.", "id": 155, "type": "french bistro", "class": "77", "name": "brasserie le coze"}
+{"city": "atlanta", "addr": "3073 piedmont road", "id": 156, "type": "american", "class": "78", "name": "buckhead diner"}
+{"city": "atlanta", "addr": "3073 piedmont rd.", "id": 157, "type": "american (new)", "class": "78", "name": "buckhead diner"}
+{"city": "atlanta", "addr": "1529 piedmont ave.", "id": 158, "type": "french", "class": "79", "name": "ciboulette"}
+{"city": "atlanta", "addr": "1529 piedmont ave.", "id": 159, "type": "french (new)", "class": "79", "name": "ciboulette restaurant"}
+{"city": "atlanta", "addr": "1 margaret mitchell sq.", "id": 160, "type": "american", "class": "80", "name": "delectables"}
+{"city": "atlanta", "addr": "1 margaret mitchell sq.", "id": 161, "type": "cafeterias", "class": "80", "name": "delectables"}
+{"city": "atlanta", "addr": "2290 peachtree rd.  peachtree square shopping center", "id": 162, "type": "american", "class": "81", "name": "georgia grille"}
+{"city": "atlanta", "addr": "2290 peachtree rd.", "id": 163, "type": "southwestern", "class": "81", "name": "georgia grille"}
+{"city": "atlanta", "addr": "490 e. paces ferry rd.", "id": 164, "type": "international", "class": "82", "name": "hedgerose heights inn"}
+{"city": "atlanta", "addr": "490 e. paces ferry rd. ne", "id": 165, "type": "continental", "class": "82", "name": "hedgerose heights inn  the"}
+{"city": "atlanta", "addr": "595 piedmont ave.  rio shopping mall", "id": 166, "type": "asian", "class": "83", "name": "heera of india"}
+{"city": "atlanta", "addr": "595 piedmont ave.", "id": 167, "type": "indian", "class": "83", "name": "heera of india"}
+{"city": "atlanta", "addr": "1397 n. highland ave.", "id": 168, "type": "caribbean", "class": "84", "name": "indigo coastal grill"}
+{"city": "atlanta", "addr": "1397 n. highland ave.", "id": 169, "type": "eclectic", "class": "84", "name": "indigo coastal grill"}
+{"city": "atlanta", "addr": "2637 peachtree rd.  peachtree house condominium", "id": 170, "type": "italian", "class": "85", "name": "la grotta"}
+{"city": "atlanta", "addr": "2637 peachtree rd. ne", "id": 171, "type": "italian", "class": "85", "name": "la grotta"}
+{"city": "atlanta", "addr": "224 ponce de leon ave.", "id": 172, "type": "southern", "class": "86", "name": "mary mac's tea room"}
+{"city": "atlanta", "addr": "224 ponce de leon ave.", "id": 173, "type": "southern/soul", "class": "86", "name": "mary mac's tea room"}
+{"city": "atlanta", "addr": "255 courtland st.  at harris st.", "id": 174, "type": "continental", "class": "87", "name": "nikolai's roof"}
+{"city": "atlanta", "addr": "255 courtland st.", "id": 175, "type": "continental", "class": "87", "name": "nikolai's roof"}
+{"city": "atlanta", "addr": "1232 w. paces ferry rd.", "id": 176, "type": "international", "class": "88", "name": "pano's and paul's"}
+{"city": "atlanta", "addr": "1232 w. paces ferry rd.", "id": 177, "type": "american (new)", "class": "88", "name": "pano's & paul's"}
+{"city": "atlanta", "addr": "3434 peachtree rd.", "id": 178, "type": "ext 6108 international", "class": "89", "name": "cafe  ritz-carlton  buckhead"}
+{"city": "atlanta", "addr": "3434 peachtree rd. ne", "id": 179, "type": "american (new)", "class": "89", "name": "ritz-carlton cafe (buckhead)"}
+{"city": "atlanta", "addr": "3434 peachtree rd.", "id": 180, "type": "international", "class": "90", "name": "dining room  ritz-carlton  buckhead"}
+{"city": "atlanta", "addr": "3434 peachtree rd. ne", "id": 181, "type": "american (new)", "class": "90", "name": "ritz-carlton dining room (buckhead)"}
+{"city": "atlanta", "addr": "181 peachtree st.", "id": 182, "type": "continental", "class": "91", "name": "restaurant  ritz-carlton  atlanta"}
+{"city": "atlanta", "addr": "181 peachtree st.", "id": 183, "type": "french (classic)", "class": "91", "name": "ritz-carlton restaurant"}
+{"city": "atlanta", "addr": "b peachtree rd.", "id": 184, "type": "french", "class": "92", "name": "toulouse"}
+{"city": "atlanta", "addr": "293-b peachtree rd.", "id": 185, "type": "french (new)", "class": "92", "name": "toulouse"}
+{"city": "atlanta", "addr": "41 14th st.", "id": 186, "type": "italian", "class": "93", "name": "veni vidi vici"}
+{"city": "atlanta", "addr": "41 14th st.", "id": 187, "type": "italian", "class": "93", "name": "veni vidi vici"}
+{"city": "san francisco", "addr": "126 clement st.", "id": 188, "type": "french", "class": "94", "name": "alain rondelli"}
+{"city": "san francisco", "addr": "126 clement st.", "id": 189, "type": "french (new)", "class": "94", "name": "alain rondelli"}
+{"city": "san francisco", "addr": "252 california st.", "id": 190, "type": "seafood", "class": "95", "name": "aqua"}
+{"city": "san francisco", "addr": "252 california st.", "id": 191, "type": "american (new)", "class": "95", "name": "aqua"}
+{"city": "san francisco", "addr": "1 mission st.", "id": 192, "type": "american", "class": "96", "name": "boulevard"}
+{"city": "san francisco", "addr": "1 mission st.", "id": 193, "type": "american (new)", "class": "96", "name": "boulevard"}
+{"city": "san francisco", "addr": "7 claude la.", "id": 194, "type": "french", "class": "97", "name": "cafe claude"}
+{"city": "san francisco", "addr": "7 claude ln.", "id": 195, "type": "french bistro", "class": "97", "name": "cafe claude"}
+{"city": "san francisco", "addr": "340 stockton st.", "id": 196, "type": "american", "class": "98", "name": "campton place"}
+{"city": "san francisco", "addr": "340 stockton st.", "id": 197, "type": "american (new)", "class": "98", "name": "campton place"}
+{"city": "san francisco", "addr": "804 northpoint", "id": 198, "type": "french", "class": "99", "name": "chez michel"}
+{"city": "san francisco", "addr": "804 north point st.", "id": 199, "type": "californian", "class": "99", "name": "chez michel"}
+{"city": "san francisco", "addr": "777 sutter st.", "id": 200, "type": "french", "class": "100", "name": "fleur de lys"}
+{"city": "san francisco", "addr": "777 sutter st.", "id": 201, "type": "french (new)", "class": "100", "name": "fleur de lys"}
+{"city": "san francisco", "addr": "570 4th st.", "id": 202, "type": "french", "class": "101", "name": "fringale"}
+{"city": "san francisco", "addr": "570 fourth st.", "id": 203, "type": "french bistro", "class": "101", "name": "fringale"}
+{"city": "san francisco", "addr": "22 hawthorne st.", "id": 204, "type": "american", "class": "102", "name": "hawthorne lane"}
+{"city": "san francisco", "addr": "22 hawthorne st.", "id": 205, "type": "californian", "class": "102", "name": "hawthorne lane"}
+{"city": "san francisco", "addr": "5937 geary blvd.", "id": 206, "type": "asian", "class": "103", "name": "khan toke thai house"}
+{"city": "san francisco", "addr": "5937 geary blvd.", "id": 207, "type": "thai", "class": "103", "name": "khan toke thai house"}
+{"city": "san francisco", "addr": "2316 polk st.", "id": 208, "type": "french", "class": "104", "name": "la folie"}
+{"city": "san francisco", "addr": "2316 polk st.", "id": 209, "type": "french (new)", "class": "104", "name": "la folie"}
+{"city": "san francisco", "addr": "816 folsom st.", "id": 210, "type": "mediterranean", "class": "105", "name": "lulu"}
+{"city": "san francisco", "addr": "816 folsom st.", "id": 211, "type": "mediterranean", "class": "105", "name": "lulu restaurant-bis-cafe"}
+{"city": "san francisco", "addr": "648 bush st.", "id": 212, "type": "french", "class": "106", "name": "masa's"}
+{"city": "san francisco", "addr": "648 bush st.", "id": 213, "type": "french (new)", "class": "106", "name": "masa's"}
+{"city": "san francisco", "addr": "1737 post st.", "id": 214, "type": "asian", "class": "107", "name": "mifune japan center  kintetsu building"}
+{"city": "san francisco", "addr": "1737 post st.", "id": 215, "type": "japanese", "class": "107", "name": "mifune"}
+{"city": "san francisco", "addr": "3201 fillmore st.", "id": 216, "type": "mediterranean", "class": "108", "name": "plumpjack cafe"}
+{"city": "san francisco", "addr": "3127 fillmore st.", "id": 217, "type": "american (new)", "class": "108", "name": "plumpjack cafe"}
+{"city": "san francisco", "addr": "545 post st.", "id": 218, "type": "american", "class": "109", "name": "postrio"}
+{"city": "san francisco", "addr": "545 post st.", "id": 219, "type": "californian", "class": "109", "name": "postrio"}
+{"city": "san francisco", "addr": "600 stockton st.", "id": 220, "type": "american", "class": "110", "name": "ritz-carlton restaurant and dining room"}
+{"city": "san francisco", "addr": "600 stockton st.", "id": 221, "type": "french (new)", "class": "110", "name": "ritz-carlton dining room (san francisco)"}
+{"city": "san francisco", "addr": "532 columbus ave.", "id": 222, "type": "italian", "class": "111", "name": "rose pistola"}
+{"city": "san francisco", "addr": "532 columbus ave.", "id": 223, "type": "italian", "class": "111", "name": "rose pistola"}
+{"city": "los angeles", "addr": "2930 beverly glen circle", "id": 224, "type": "italian", "class": "112", "name": "adriano's ristorante"}
+{"city": "beverly hills", "addr": "9570 wilshire blvd.", "id": 225, "type": "american", "class": "113", "name": "barney greengrass"}
+{"city": "malibu", "addr": "26025 pacific coast hwy.", "id": 226, "type": "french", "class": "114", "name": "beaurivage"}
+{"city": "los angeles", "addr": "176 n. canon dr.", "id": 227, "type": "californian", "class": "115", "name": "bistro garden"}
+{"city": "los angeles", "addr": "4th st.", "id": 228, "type": "mexican", "class": "116", "name": "border grill"}
+{"city": "santa monica", "addr": "3rd st. promenade", "id": 229, "type": "american", "class": "117", "name": "broadway deli"}
+{"city": "los angeles", "addr": "346 s. la brea ave.", "id": 230, "type": "italian", "class": "118", "name": "ca'brea"}
+{"city": "los angeles", "addr": "4100 cahuenga blvd.", "id": 231, "type": "italian", "class": "119", "name": "ca'del sol"}
+{"city": "los angeles", "addr": "700 w. fifth st.", "id": 232, "type": "californian", "class": "120", "name": "cafe pinot"}
+{"city": "los angeles", "addr": "207 s. beverly dr.", "id": 233, "type": "californian", "class": "121", "name": "california pizza kitchen"}
+{"city": "los angeles", "addr": "419 n. fairfax ave.", "id": 234, "type": "american", "class": "122", "name": "canter's"}
+{"city": "los angeles", "addr": "3rd st.", "id": 235, "type": "mediterranean", "class": "123", "name": "cava"}
+{"city": "los angeles", "addr": "656 n. virgil ave.", "id": 236, "type": "caribbean", "class": "124", "name": "cha cha cha"}
+{"city": "los angeles", "addr": "310 n. larchmont blvd.", "id": 237, "type": "asian", "class": "125", "name": "chan dara"}
+{"city": "los angeles", "addr": "168 w. colorado blvd.", "id": 238, "type": "health food", "class": "126", "name": "clearwater cafe"}
+{"city": "los angeles", "addr": "9500 wilshire blvd.", "id": 239, "type": "californian", "class": "127", "name": "dining room"}
+{"city": "los angeles", "addr": "10250 santa monica blvd.", "id": 240, "type": "dive american", "class": "128", "name": "dive!"}
+{"city": "santa monica", "addr": "2628 wilshire blvd.", "id": 241, "type": "italian", "class": "129", "name": "drago"}
+{"city": "los angeles", "addr": "730 n. la cienega blvd.", "id": 242, "type": "french", "class": "130", "name": "drai's"}
+{"city": "los angeles", "addr": "930 hilgard ave.", "id": 243, "type": "continental", "class": "131", "name": "dynasty room"}
+{"city": "los angeles", "addr": "8800 melrose ave.", "id": 244, "type": "californian", "class": "132", "name": "eclipse"}
+{"city": "los angeles", "addr": "134 n. la cienega", "id": 245, "type": "american", "class": "133", "name": "ed debevic's"}
+{"city": "los angeles", "addr": "1121 s. western ave.", "id": 246, "type": "mexican", "class": "134", "name": "el cholo"}
+{"city": "santa monica", "addr": "2424 main st.", "id": 247, "type": "american", "class": "135", "name": "gilliland's"}
+{"city": "pacific palisades", "addr": "4 fish 17300 pacific coast hwy. at sunset blvd.", "id": 248, "type": "american", "class": "136", "name": "gladstone's"}
+{"city": "los angeles", "addr": "8600 beverly blvd.", "id": 249, "type": "american", "class": "137", "name": "hard rock cafe"}
+{"city": "los angeles", "addr": "2020 ave. of the stars", "id": 250, "type": "italian", "class": "138", "name": "harry's bar & american grill"}
+{"city": "los angeles", "addr": "301 n. beverly dr.", "id": 251, "type": "italian", "class": "139", "name": "il fornaio cucina italiana"}
+{"city": "los angeles", "addr": "10668 w. pico blvd.", "id": 252, "type": "health food", "class": "140", "name": "jack sprat's grill"}
+{"city": "los angeles", "addr": "439 n. beverly drive", "id": 253, "type": "californian", "class": "141", "name": "jackson's farm"}
+{"city": "los angeles", "addr": "201 moreno dr.", "id": 254, "type": "continental", "class": "142", "name": "jimmy's"}
+{"city": "los angeles", "addr": "9255 sunset blvd.", "id": 255, "type": "asian", "class": "143", "name": "joss"}
+{"city": "los angeles", "addr": "8783 beverly blvd.", "id": 256, "type": "asian", "class": "144", "name": "le colonial"}
+{"city": "los angeles", "addr": "8720 sunset blvd.", "id": 257, "type": "french", "class": "145", "name": "le dome"}
+{"city": "los angeles", "addr": "4500 los feliz blvd.", "id": 258, "type": "italian", "class": "146", "name": "louise's trattoria"}
+{"city": "los angeles", "addr": "679 n. spring st.", "id": 259, "type": "asian", "class": "147", "name": "mon kee seafood restaurant"}
+{"city": "los angeles", "addr": "8764 melrose ave.", "id": 260, "type": "american", "class": "148", "name": "morton's"}
+{"city": "los angeles", "addr": "414 n. beverly dr.", "id": 261, "type": "american", "class": "149", "name": "nate 'n' al's"}
+{"city": "los angeles", "addr": "601 s. figueroa st.", "id": 262, "type": "american", "class": "150", "name": "nicola"}
+{"city": "santa monica", "addr": "1401 ocean ave.", "id": 263, "type": "american", "class": "151", "name": "ocean avenue"}
+{"city": "los angeles", "addr": "11705 national blvd.", "id": 264, "type": "cajun", "class": "152", "name": "orleans"}
+{"city": "los angeles", "addr": "6th st.", "id": 265, "type": "american", "class": "153", "name": "pacific dining car"}
+{"city": "toluca lake", "addr": "10001 riverside dr.", "id": 266, "type": "american", "class": "154", "name": "paty's"}
+{"city": "los angeles", "addr": "1448 n. gower st.", "id": 267, "type": "californian", "class": "155", "name": "pinot hollywood"}
+{"city": "sherman oaks", "addr": "14928 ventura blvd.", "id": 268, "type": "italian", "class": "156", "name": "posto"}
+{"city": "los angeles", "addr": "362 n. camden dr.", "id": 269, "type": "italian", "class": "157", "name": "prego"}
+{"city": "los angeles", "addr": "252 n. beverly dr.", "id": 270, "type": "american", "class": "158", "name": "rj's the rib joint"}
+{"city": "santa monica", "addr": "3rd st. promenade", "id": 271, "type": "italian", "class": "159", "name": "remi"}
+{"city": "los angeles", "addr": "111 s. san pedro st.", "id": 272, "type": "asian", "class": "160", "name": "restaurant horikawa"}
+{"city": "los angeles", "addr": "1514 n. gower st.", "id": 273, "type": "american", "class": "161", "name": "roscoe's house of chicken 'n' waffles"}
+{"city": "los angeles", "addr": "3110 main st.", "id": 274, "type": "continental", "class": "162", "name": "schatzi on main"}
+{"city": "los angeles", "addr": "3rd st.", "id": 275, "type": "mediterranean", "class": "163", "name": "sofi"}
+{"city": "los angeles", "addr": "8020 beverly blvd.", "id": 276, "type": "american", "class": "164", "name": "swingers"}
+{"city": "los angeles", "addr": "7371 melrose ave.", "id": 277, "type": "italian", "class": "165", "name": "tavola calda"}
+{"city": "los angeles", "addr": "430 n. camden dr.", "id": 278, "type": "asian", "class": "166", "name": "the mandarin"}
+{"city": "los angeles", "addr": "7313 melrose ave.", "id": 279, "type": "asian", "class": "167", "name": "tommy tang's"}
+{"city": "los angeles", "addr": "3835 cross creek rd.", "id": 280, "type": "italian", "class": "168", "name": "tra di noi"}
+{"city": "los angeles", "addr": "9876 wilshire blvd.", "id": 281, "type": "asian", "class": "169", "name": "trader vic's"}
+{"city": "los feliz", "addr": "1930 north hillhurst ave.", "id": 282, "type": "american", "class": "170", "name": "vida"}
+{"city": "los angeles", "addr": "60 n. venice blvd.", "id": 283, "type": "american", "class": "171", "name": "west beach cafe"}
+{"city": "new york", "addr": "20 mott st.  between bowery and pell st.", "id": 284, "type": "asian", "class": "172", "name": "20 mott"}
+{"city": "new york", "addr": "9 jones st.", "id": 285, "type": "american", "class": "173", "name": "9 jones street"}
+{"city": "new york", "addr": "700 5th ave. at 55th st.", "id": 286, "type": "french", "class": "174", "name": "adrienne"}
+{"city": "new york", "addr": "322 e. 14 st.  between 1st and 2nd aves.", "id": 287, "type": "mediterranean", "class": "175", "name": "agrotikon"}
+{"city": "new york", "addr": "937 broadway at 22nd st.", "id": 288, "type": "american", "class": "176", "name": "aja"}
+{"city": "new york", "addr": "304 e. 48th st.", "id": 289, "type": "mexican", "class": "177", "name": "alamo"}
+{"city": "new york", "addr": "311 w. 17th st.", "id": 290, "type": "american", "class": "178", "name": "alley's end"}
+{"city": "new york", "addr": "1 united nations plaza at 44th st.", "id": 291, "type": "american", "class": "179", "name": "ambassador grill"}
+{"city": "new york", "addr": "2 park ave. at 32nd st.", "id": 292, "type": "american", "class": "180", "name": "american place"}
+{"city": "new york", "addr": "222 e. 58th st.  between 2nd and 3rd aves.", "id": 293, "type": "italian", "class": "181", "name": "anche vivolo"}
+{"city": "new york", "addr": "206 206 e. 60th st.", "id": 294, "type": "american", "class": "182", "name": "arizona"}
+{"city": "new york", "addr": "106 w. houston st.  off thompson st.", "id": 295, "type": "italian", "class": "183", "name": "arturo's"}
+{"city": "new york", "addr": "200-250 vesey st. world financial center", "id": 296, "type": "asian", "class": "184", "name": "au mandarin"}
+{"city": "new york", "addr": "1022 3rd ave.  between 60th and 61st sts.", "id": 297, "type": "mediterranean", "class": "185", "name": "bar anise"}
+{"city": "new york", "addr": "321 w. 46th st.", "id": 298, "type": "italian", "class": "186", "name": "barbetta"}
+{"city": "new york", "addr": "123 w. 52nd st.", "id": 299, "type": "american", "class": "187", "name": "ben benson's"}
+{"city": "new york", "addr": "228 8th ave.  between 21st and 22nd sts.", "id": 300, "type": "coffee bar", "class": "188", "name": "big cup"}
+{"city": "new york", "addr": "948 1st ave.  between 52nd and 53rd sts.", "id": 301, "type": "american", "class": "189", "name": "billy's"}
+{"city": "new york", "addr": "13 1st ave.  near 1st st.", "id": 302, "type": "latin american", "class": "190", "name": "boca chica"}
+{"city": "new york", "addr": "23 e. 22nd st.", "id": 303, "type": "mediterranean", "class": "191", "name": "bolo"}
+{"city": "new york", "addr": "1393a 2nd ave.  between 72nd and 73rd sts.", "id": 304, "type": "asian", "class": "192", "name": "boonthai"}
+{"city": "new york", "addr": "420 e. 59th st.  off 1st ave.", "id": 305, "type": "french", "class": "193", "name": "bouterin"}
+{"city": "new york", "addr": "225 varick st. at clarkston st.", "id": 306, "type": "american", "class": "194", "name": "brothers bar-b-q"}
+{"city": "new york", "addr": "240 e. 58th st.", "id": 307, "type": "italian", "class": "195", "name": "bruno"}
+{"city": "new york", "addr": "25 w. 40th st.  between 5th and 6th aves.", "id": 308, "type": "american", "class": "196", "name": "bryant park grill  roof restaurant and bp cafe"}
+{"city": "new york", "addr": "103 waverly pl.  near washington sq.", "id": 309, "type": "american", "class": "197", "name": "c3"}
+{"city": "new york", "addr": "111 e. 22nd st.  between park ave. s and lexington ave.", "id": 310, "type": "french", "class": "198", "name": "ct"}
+{"city": "new york", "addr": "1486 2nd ave.  between 77th and 78th sts.", "id": 311, "type": "coffee bar", "class": "199", "name": "cafe bianco"}
+{"city": "new york", "addr": "160 central park s", "id": 312, "type": "french", "class": "200", "name": "cafe botanica"}
+{"city": "new york", "addr": "69 w. 71st st.", "id": 313, "type": "coffee bar", "class": "201", "name": "cafe la fortuna"}
+{"city": "new york", "addr": "200 w. 70th st.", "id": 314, "type": "french", "class": "202", "name": "cafe luxembourg"}
+{"city": "new york", "addr": "2 e. 61st st.", "id": 315, "type": "french", "class": "203", "name": "cafe pierre"}
+{"city": "new york", "addr": "200 park ave.  between 45th st. and vanderbilt ave.", "id": 316, "type": "french", "class": "204", "name": "cafe centro"}
+{"city": "new york", "addr": "246 w. 4th st. at charles st.", "id": 317, "type": "mediterranean", "class": "205", "name": "cafe fes"}
+{"city": "new york", "addr": "81 macdougal st.  between houston and bleeker sts.", "id": 318, "type": "coffee bar", "class": "206", "name": "caffe dante"}
+{"city": "new york", "addr": "46 greenwich ave.", "id": 319, "type": "coffee bar", "class": "207", "name": "caffe dell'artista"}
+{"city": "new york", "addr": "169 sullivan st.  between houston and bleecker sts.", "id": 320, "type": "french", "class": "208", "name": "caffe lure"}
+{"city": "new york", "addr": "119 macdougal st.  between 3rd and bleecker sts.", "id": 321, "type": "coffee bar", "class": "209", "name": "caffe reggio"}
+{"city": "new york", "addr": "385 broome st. at mulberry", "id": 322, "type": "coffee bar", "class": "210", "name": "caffe roma"}
+{"city": "new york", "addr": "32 jones st. at bleecker st.", "id": 323, "type": "coffee bar", "class": "211", "name": "caffe vivaldi"}
+{"city": "new york", "addr": "7 w. 20th st.", "id": 324, "type": "italian", "class": "212", "name": "caffe bondi ristorante"}
+{"city": "new york", "addr": "451 washington st.  near watts st.", "id": 325, "type": "french", "class": "213", "name": "capsouto freres"}
+{"city": "new york", "addr": "860 2nd ave. at 46th st.", "id": 326, "type": "seafood", "class": "214", "name": "captain's table"}
+{"city": "new york", "addr": "150 wooster st.  between houston and prince sts.", "id": 327, "type": "middle eastern", "class": "215", "name": "casa la femme"}
+{"city": "new york", "addr": "45 mercer st.  between broome and grand sts.", "id": 328, "type": "asian", "class": "216", "name": "cendrillon asian grill & marimba bar"}
+{"city": "new york", "addr": "72 macdougal st.  between w. houston and bleecker sts.", "id": 329, "type": "french", "class": "217", "name": "chez jacqueline"}
+{"city": "new york", "addr": "160 e. 48th st.", "id": 330, "type": "asian", "class": "218", "name": "chiam"}
+{"city": "new york", "addr": "60 w. 53rd st.", "id": 331, "type": "american", "class": "219", "name": "china grill"}
+{"city": "new york", "addr": "120 w. 51st st.", "id": 332, "type": "french", "class": "220", "name": "cite"}
+{"city": "new york", "addr": "23 e. 74th st.", "id": 333, "type": "italian", "class": "221", "name": "coco pazzo"}
+{"city": "new york", "addr": "53rd sts.", "id": 334, "type": "coffee bar", "class": "222", "name": "columbus bakery"}
+{"city": "new york", "addr": "1013 3rd ave.  between 60th and 61st sts.", "id": 335, "type": "coffee bar", "class": "223", "name": "corrado cafe"}
+{"city": "new york", "addr": "522 9th ave. at 39th st.", "id": 336, "type": "coffee bar", "class": "224", "name": "cupcake cafe"}
+{"city": "new york", "addr": "164 mulberry st.  between grand and broome sts.", "id": 337, "type": "italian", "class": "225", "name": "da nico"}
+{"city": "new york", "addr": "121 prince st.", "id": 338, "type": "coffee bar", "class": "226", "name": "dean & deluca"}
+{"city": "new york", "addr": "341 w. broadway  near grand st.", "id": 339, "type": "italian", "class": "227", "name": "diva"}
+{"city": "new york", "addr": "181 w. 10th st.", "id": 340, "type": "french", "class": "228", "name": "dix et sept"}
+{"city": "new york", "addr": "633 3rd ave. at 40th st.", "id": 341, "type": "seafood", "class": "229", "name": "docks"}
+{"city": "new york", "addr": "157 duane st.  between w. broadway and hudson st.", "id": 342, "type": "american", "class": "230", "name": "duane park cafe"}
+{"city": "new york", "addr": "219 w. broadway  between franklin and white sts.", "id": 343, "type": "mexican", "class": "231", "name": "el teddy's"}
+{"city": "new york", "addr": "1325 5th ave. at 111th st.", "id": 344, "type": "american", "class": "232", "name": "emily's"}
+{"city": "new york", "addr": "6 e. 32nd st.", "id": 345, "type": "asian", "class": "233", "name": "empire korea"}
+{"city": "new york", "addr": "2150 broadway  between 75th and 76th sts.", "id": 346, "type": "american", "class": "234", "name": "ernie's"}
+{"city": "new york", "addr": "1288 1st ave. at 69th st.", "id": 347, "type": "asian", "class": "235", "name": "evergreen cafe"}
+{"city": "new york", "addr": "39 desbrosses st.  near west st.", "id": 348, "type": "italian", "class": "236", "name": "f. ille ponte ristorante"}
+{"city": "new york", "addr": "340 w. broadway at grand st.", "id": 349, "type": "french", "class": "237", "name": "felix"}
+{"city": "new york", "addr": "29 e. 65th st.", "id": 350, "type": "french", "class": "238", "name": "ferrier"}
+{"city": "new york", "addr": "57 e. 57th st.", "id": 351, "type": "american", "class": "239", "name": "fifty seven fifty seven"}
+{"city": "new york", "addr": "635 9th ave.  between 44th and 45th sts.", "id": 352, "type": "american", "class": "240", "name": "film center cafe"}
+{"city": "new york", "addr": "1900 broadway  between 63rd and 64th sts.", "id": 353, "type": "italian", "class": "241", "name": "fiorello's roman cafe"}
+{"city": "new york", "addr": "522 columbus ave.  between 85th and 86th sts.", "id": 354, "type": "american", "class": "242", "name": "firehouse"}
+{"city": "new york", "addr": "87 1st ave.  between 5th and 6th sts.", "id": 355, "type": "american", "class": "243", "name": "first"}
+{"city": "new york", "addr": "73 w. 71st st.", "id": 356, "type": "seafood", "class": "244", "name": "fishin eddie"}
+{"city": "new york", "addr": "348 e. 62nd st.", "id": 357, "type": "coffee bar", "class": "245", "name": "fleur de jour"}
+{"city": "new york", "addr": "21 west 17th st.  between 5th and 6th aves.", "id": 358, "type": "american", "class": "246", "name": "flowers"}
+{"city": "new york", "addr": "6 w. 24th st.", "id": 359, "type": "italian", "class": "247", "name": "follonico"}
+{"city": "new york", "addr": "54 pearl st. at broad st.", "id": 360, "type": "american", "class": "248", "name": "fraunces tavern"}
+{"city": "new york", "addr": "458 6th ave. at 11th st.", "id": 361, "type": "french", "class": "249", "name": "french roast"}
+{"city": "new york", "addr": "2340 broadway at 85th st.", "id": 362, "type": "coffee bar", "class": "250", "name": "french roast cafe"}
+{"city": "new york", "addr": "402 w. 43rd st.  off 9th ave.", "id": 363, "type": "italian", "class": "251", "name": "frico bar"}
+{"city": "new york", "addr": "467 columbus ave.  between 82nd and 83rd sts.", "id": 364, "type": "asian", "class": "252", "name": "fujiyama mama"}
+{"city": "new york", "addr": "685 amsterdam ave. at 93rd st.", "id": 365, "type": "mexican", "class": "253", "name": "gabriela's"}
+{"city": "new york", "addr": "228 w. 52nd st.", "id": 366, "type": "american", "class": "254", "name": "gallagher's"}
+{"city": "new york", "addr": "15 fulton st.", "id": 367, "type": "seafood", "class": "255", "name": "gianni's"}
+{"city": "new york", "addr": "208 e. 58th st.  between 2nd and 3rd aves.", "id": 368, "type": "italian", "class": "256", "name": "girafe"}
+{"city": "new york", "addr": "33 93 2nd ave.  between 5th and 6th sts.", "id": 369, "type": "american", "class": "257", "name": "global"}
+{"city": "new york", "addr": "18 e. broadway at catherine st.", "id": 370, "type": "asian", "class": "258", "name": "golden unicorn"}
+{"city": "new york", "addr": "228 thompson st.  between w. 3rd and bleecker sts.", "id": 371, "type": "italian", "class": "259", "name": "grand ticino"}
+{"city": "new york", "addr": "151 w. 54th st.  in the rihga royal hotel", "id": 372, "type": "american", "class": "260", "name": "halcyon"}
+{"city": "new york", "addr": "221 w. 57th st.", "id": 373, "type": "american", "class": "261", "name": "hard rock cafe"}
+{"city": "new york", "addr": "1340 1st ave. at 72nd st.", "id": 374, "type": "american", "class": "262", "name": "hi-life restaurant and lounge"}
+{"city": "new york", "addr": "20 cornelia st.  between bleecker and w. 4th st.", "id": 375, "type": "american", "class": "263", "name": "home"}
+{"city": "new york", "addr": "4 world financial center", "id": 376, "type": "american", "class": "264", "name": "hudson river club"}
+{"city": "new york", "addr": "122 e. 27th st.  between lexington and park aves.", "id": 377, "type": "italian", "class": "265", "name": "i trulli"}
+{"city": "new york", "addr": "125 mulberry st.  between canal and hester sts.", "id": 378, "type": "italian", "class": "266", "name": "il cortile"}
+{"city": "new york", "addr": "251 e. 53rd st.", "id": 379, "type": "italian", "class": "267", "name": "il nido"}
+{"city": "new york", "addr": "492 broome st.  near w. broadway", "id": 380, "type": "latin american", "class": "268", "name": "inca grill"}
+{"city": "new york", "addr": "430 lafayette st.  between 4th st. and astor pl.", "id": 381, "type": "asian", "class": "269", "name": "indochine"}
+{"city": "new york", "addr": "82 e. 3rd st.  between 1st and 2nd aves.", "id": 382, "type": "coffee bar", "class": "270", "name": "internet cafe"}
+{"city": "new york", "addr": "13 w. 46th st.", "id": 383, "type": "latin american", "class": "271", "name": "ipanema"}
+{"city": "new york", "addr": "68 w. 58th st.", "id": 384, "type": "french", "class": "272", "name": "jean lafitte"}
+{"city": "new york", "addr": "15 w. 44th st.", "id": 385, "type": "asian", "class": "273", "name": "jewel of india"}
+{"city": "new york", "addr": "219 e. 44th st.  between 2nd and 3rd aves.", "id": 386, "type": "asian", "class": "274", "name": "jimmy sung's"}
+{"city": "new york", "addr": "326 w. 46th st.", "id": 387, "type": "american", "class": "275", "name": "joe allen"}
+{"city": "new york", "addr": "152 w. 52nd st.", "id": 388, "type": "american", "class": "276", "name": "judson grill"}
+{"city": "new york", "addr": "227 e. 67th st.", "id": 389, "type": "french", "class": "277", "name": "l'absinthe"}
+{"city": "new york", "addr": "1191 1st ave.  between 64th and 65th sts.", "id": 390, "type": "middle eastern", "class": "278", "name": "l'auberge"}
+{"city": "new york", "addr": "310 w. 4th st.  between w. 12th and bank sts.", "id": 391, "type": "french", "class": "279", "name": "l'auberge du midi"}
+{"city": "new york", "addr": "432 lafayette st.  near astor pl.", "id": 392, "type": "french", "class": "280", "name": "l'udo"}
+{"city": "new york", "addr": "4 w. 49th st.", "id": 393, "type": "french", "class": "281", "name": "la reserve"}
+{"city": "new york", "addr": "168 1st ave.  between 10th and 11th sts.", "id": 394, "type": "italian", "class": "282", "name": "lanza restaurant"}
+{"city": "new york", "addr": "361 w. 46th st.", "id": 395, "type": "italian", "class": "283", "name": "lattanzi ristorante"}
+{"city": "new york", "addr": "211 w. broadway at franklin st.", "id": 396, "type": "middle eastern", "class": "284", "name": "layla"}
+{"city": "new york", "addr": "106 e. 57th st.", "id": 397, "type": "french", "class": "285", "name": "le chantilly"}
+{"city": "new york", "addr": "149 e. 57th st.", "id": 398, "type": "asian", "class": "286", "name": "le colonial"}
+{"city": "new york", "addr": "50 macdougal st.  between houston and prince sts.", "id": 399, "type": "coffee bar", "class": "287", "name": "le gamin"}
+{"city": "new york", "addr": "25 cleveland pl.  near spring st.", "id": 400, "type": "french", "class": "288", "name": "le jardin"}
+{"city": "new york", "addr": "168 w. 18th st.", "id": 401, "type": "italian", "class": "289", "name": "le madri"}
+{"city": "new york", "addr": "150 w. 46th st.", "id": 402, "type": "american", "class": "290", "name": "le marais"}
+{"city": "new york", "addr": "405 e. 52nd st.", "id": 403, "type": "french", "class": "291", "name": "le perigord"}
+{"city": "new york", "addr": "507 columbus ave.  between 84th and 85th sts.", "id": 404, "type": "american", "class": "292", "name": "le select"}
+{"city": "new york", "addr": "411 park ave. s  between 28th and 29th sts.", "id": 405, "type": "french", "class": "293", "name": "les halles"}
+{"city": "new york", "addr": "51 w. 64th st.", "id": 406, "type": "american", "class": "294", "name": "lincoln tavern"}
+{"city": "new york", "addr": "30 west 22nd st.  between 5th and 6th ave.", "id": 407, "type": "american", "class": "295", "name": "lola"}
+{"city": "new york", "addr": "59 grand st.  between wooster st. and w. broadway", "id": 408, "type": "or 212/941-0772 american", "class": "296", "name": "lucky strike"}
+{"city": "new york", "addr": "2182 broadway  between 77th and 78th sts.", "id": 409, "type": "seafood", "class": "297", "name": "mad fish"}
+{"city": "new york", "addr": "446 columbus ave.  between 81st and 82nd sts.", "id": 410, "type": "american", "class": "298", "name": "main street"}
+{"city": "new york", "addr": "800 9th ave. at 53rd st.", "id": 411, "type": "italian", "class": "299", "name": "mangia e bevi"}
+{"city": "new york", "addr": "1161 1st ave.  between 63rd and 64th sts.", "id": 412, "type": "american", "class": "300", "name": "manhattan cafe"}
+{"city": "new york", "addr": "325 e. 14th st.  between 1st and 2nd aves.", "id": 413, "type": "asian", "class": "301", "name": "manila garden"}
+{"city": "new york", "addr": "342 e. 46th st.  between 1st and 2nd aves.", "id": 414, "type": "french", "class": "302", "name": "marichu"}
+{"city": "new york", "addr": "15 e. 12th st.  between 5th ave. and university pl.", "id": 415, "type": "coffee bar", "class": "303", "name": "marquet patisserie"}
+{"city": "new york", "addr": "160 mercer st.  between houston and prince sts.", "id": 416, "type": "american", "class": "304", "name": "match"}
+{"city": "new york", "addr": "1030 3rd ave. at 61st st.", "id": 417, "type": "american", "class": "305", "name": "matthew's"}
+{"city": "new york", "addr": "46 e. 29th st.", "id": 418, "type": "asian", "class": "306", "name": "mavalli palace"}
+{"city": "new york", "addr": "120 w. 23rd st.", "id": 419, "type": "coffee bar", "class": "307", "name": "milan cafe and coffee bar"}
+{"city": "new york", "addr": "60 e. 54th st.", "id": 420, "type": "american", "class": "308", "name": "monkey bar"}
+{"city": "new york", "addr": "1134 1st ave.   between 62nd and 63rd sts.", "id": 421, "type": "asian", "class": "309", "name": "montien"}
+{"city": "new york", "addr": "551 5th ave. at 45th st.", "id": 422, "type": "american", "class": "310", "name": "morton's"}
+{"city": "new york", "addr": "104 w. 57th st.  near 6th ave.", "id": 423, "type": "american", "class": "311", "name": "motown cafe"}
+{"city": "new york", "addr": "32 w. 32nd st.", "id": 424, "type": "asian", "class": "312", "name": "new york kom tang soot bul house"}
+{"city": "new york", "addr": "28 1/2 bowery at bayard st.", "id": 425, "type": "asian", "class": "313", "name": "new york noodletown"}
+{"city": "new york", "addr": "2 w. 19th st.", "id": 426, "type": "coffee bar", "class": "314", "name": "newsbar"}
+{"city": "new york", "addr": "145 w. broadway at thomas st.", "id": 427, "type": "american", "class": "315", "name": "odeon"}
+{"city": "new york", "addr": "322 w. 46th st.", "id": 428, "type": "italian", "class": "316", "name": "orso"}
+{"city": "new york", "addr": "142 w. 44th st.", "id": 429, "type": "italian", "class": "317", "name": "osteria al droge"}
+{"city": "new york", "addr": "68 e. 56th st.", "id": 430, "type": "asian", "class": "318", "name": "otabe"}
+{"city": "new york", "addr": "138 lafayette st.  between canal and howard sts.", "id": 431, "type": "asian", "class": "319", "name": "pacifica"}
+{"city": "new york", "addr": "151 w. 51st. st.", "id": 432, "type": "italian", "class": "320", "name": "palio"}
+{"city": "new york", "addr": "1065 1st ave.  at 58th st.", "id": 433, "type": "middle eastern", "class": "321", "name": "pamir"}
+{"city": "new york", "addr": "24 e. 81st st.", "id": 434, "type": "italian", "class": "322", "name": "parioli romanissimo"}
+{"city": "new york", "addr": "250 park ave. s at 20th st.", "id": 435, "type": "latin american", "class": "323", "name": "patria"}
+{"city": "new york", "addr": "301 park ave.  between 49th and 50th sts.", "id": 436, "type": "french", "class": "324", "name": "peacock alley"}
+{"city": "new york", "addr": "205 e. 45th st.", "id": 437, "type": "american", "class": "325", "name": "pen & pencil"}
+{"city": "new york", "addr": "109 spring st.  between greene and mercer sts.", "id": 438, "type": "asian", "class": "326", "name": "penang soho"}
+{"city": "new york", "addr": "1423 2nd ave.  between 74th and 75th sts.", "id": 439, "type": "middle eastern", "class": "327", "name": "persepolis"}
+{"city": "new york", "addr": "140 w. 57th st.", "id": 440, "type": "american", "class": "328", "name": "planet hollywood"}
+{"city": "new york", "addr": "371 w. 46th st.  off 9th ave.", "id": 441, "type": "latin american", "class": "329", "name": "pomaire"}
+{"city": "new york", "addr": "551 amsterdam ave.  between 86th and 87th sts.", "id": 442, "type": "american", "class": "330", "name": "popover cafe"}
+{"city": "new york", "addr": "28 e. 63rd st.", "id": 443, "type": "american", "class": "331", "name": "post house"}
+{"city": "new york", "addr": "100 w. 82nd st.", "id": 444, "type": "asian", "class": "332", "name": "rain"}
+{"city": "new york", "addr": "439 e. 75th st.", "id": 445, "type": "eastern european", "class": "333", "name": "red tulip"}
+{"city": "new york", "addr": "145 w. 53rd st.", "id": 446, "type": "italian", "class": "334", "name": "remi"}
+{"city": "new york", "addr": "37a union sq. w  between 16th and 17th sts.", "id": 447, "type": "asian", "class": "335", "name": "republic"}
+{"city": "new york", "addr": "126 e. 7th st.  between 1st ave. and ave. a", "id": 448, "type": "continental", "class": "336", "name": "roettelle a. g"}
+{"city": "new york", "addr": "1063 1st ave. at 58th st.", "id": 449, "type": "mexican", "class": "337", "name": "rosa mexicano"}
+{"city": "new york", "addr": "148 w. 51st st.", "id": 450, "type": "american", "class": "338", "name": "ruth's chris"}
+{"city": "new york", "addr": "133 mulberry st.  between hester and grand sts.", "id": 451, "type": "italian", "class": "339", "name": "s.p.q.r"}
+{"city": "new york", "addr": "55 irving pl.", "id": 452, "type": "italian", "class": "340", "name": "sal anthony's"}
+{"city": "new york", "addr": "157 chrystie st. at delancey st.", "id": 453, "type": "east european", "class": "341", "name": "sammy's roumanian steak house"}
+{"city": "new york", "addr": "18 e. 54th st.", "id": 454, "type": "italian", "class": "342", "name": "san pietro"}
+{"city": "new york", "addr": "1000 madison ave.  between 77th and 78th sts.", "id": 455, "type": "coffee bar", "class": "343", "name": "sant ambroeus"}
+{"city": "new york", "addr": "423 amsterdam ave.  between 80th and 81st sts.", "id": 456, "type": "american", "class": "344", "name": "sarabeth's kitchen"}
+{"city": "new york", "addr": "19 w. 49th st.", "id": 457, "type": "seafood", "class": "345", "name": "sea grill"}
+{"city": "new york", "addr": "3 225 e. 60th st.", "id": 458, "type": "american", "class": "346", "name": "serendipity"}
+{"city": "new york", "addr": "643 park ave. at 66th st.", "id": 459, "type": "american", "class": "347", "name": "seventh regiment mess and bar"}
+{"city": "new york", "addr": "58 w. 65th st.", "id": 460, "type": "american", "class": "348", "name": "sfuzzi"}
+{"city": "new york", "addr": "57 w. 48th st.", "id": 461, "type": "asian", "class": "349", "name": "shaan"}
+{"city": "new york", "addr": "1022 madison ave.  near 79th st.", "id": 462, "type": "italian", "class": "350", "name": "sofia fabulous pizza"}
+{"city": "new york", "addr": "62 spring st. at lafayette st.", "id": 463, "type": "american", "class": "351", "name": "spring street natural restaurant & bar"}
+{"city": "new york", "addr": "834 7th ave.  between 53rd and 54th sts.", "id": 464, "type": "delicatessen", "class": "352", "name": "stage deli"}
+{"city": "new york", "addr": "428 amsterdam ave.  between 80th and 81st sts.", "id": 465, "type": "seafood", "class": "353", "name": "stingray"}
+{"city": "new york", "addr": "76 mott st. at canal st.", "id": 466, "type": "asian", "class": "354", "name": "sweet'n'tart cafe"}
+{"city": "new york", "addr": "143 mercer st. at prince st.", "id": 467, "type": "coffee bar", "class": "355", "name": "t salon"}
+{"city": "new york", "addr": "65 w. 55th st.", "id": 468, "type": "asian", "class": "356", "name": "tang pavillion"}
+{"city": "new york", "addr": "950 8th ave. at 56th st.", "id": 469, "type": "american", "class": "357", "name": "tapika"}
+{"city": "new york", "addr": "103 1st ave.  between 6th and 7th sts.", "id": 470, "type": "east european", "class": "358", "name": "teresa's"}
+{"city": "new york", "addr": "400 w. 119th st.  between amsterdam and morningside aves.", "id": 471, "type": "continental", "class": "359", "name": "terrace"}
+{"city": "new york", "addr": "350 9th ave. at 49th st.", "id": 472, "type": "coffee bar", "class": "360", "name": "the coffee pot"}
+{"city": "new york", "addr": "2420 broadway at 89th st.", "id": 473, "type": "american", "class": "361", "name": "the savannah club"}
+{"city": "new york", "addr": "900 7th ave.  between 56th and 57th sts.", "id": 474, "type": "italian", "class": "362", "name": "trattoria dell'arte"}
+{"city": "new york", "addr": "345 e. 83rd st.", "id": 475, "type": "italian", "class": "363", "name": "triangolo"}
+{"city": "new york", "addr": "375 greenwich st.  near franklin st.", "id": 476, "type": "american", "class": "364", "name": "tribeca grill"}
+{"city": "new york", "addr": "154 e. 79th st.  between lexington and 3rd aves.", "id": 477, "type": "coffee bar", "class": "365", "name": "trois jean"}
+{"city": "new york", "addr": "34 e. 51st st.", "id": 478, "type": "asian", "class": "366", "name": "tse yang"}
+{"city": "new york", "addr": "386 3rd ave.  between 27th and 28th sts.", "id": 479, "type": "middle eastern", "class": "367", "name": "turkish kitchen"}
+{"city": "new york", "addr": "222 w. 79th st.", "id": 480, "type": "american", "class": "368", "name": "two two two"}
+{"city": "new york", "addr": "342 e. 11th st.  near 1st ave.", "id": 481, "type": "coffee bar", "class": "369", "name": "veniero's pasticceria"}
+{"city": "new york", "addr": "54 irving pl. at 17th st.", "id": 482, "type": "american", "class": "370", "name": "verbena"}
+{"city": "new york", "addr": "52 236 w. 52nd st.", "id": 483, "type": "latin american", "class": "371", "name": "victor's cafe"}
+{"city": "new york", "addr": "70 w. 68th st.", "id": 484, "type": "american", "class": "372", "name": "vince & eddie's"}
+{"city": "new york", "addr": "200 e. 54th st.", "id": 485, "type": "american", "class": "373", "name": "vong"}
+{"city": "new york", "addr": "500 e. 30th st.", "id": 486, "type": "american", "class": "374", "name": "water club"}
+{"city": "new york", "addr": "63rd street steakhouse 44 w. 63rd st.", "id": 487, "type": "american", "class": "375", "name": "west"}
+{"city": "new york", "addr": "174 1st ave.  between 10th and 11th sts.", "id": 488, "type": "mediterranean", "class": "376", "name": "xunta"}
+{"city": "new york", "addr": "34 union sq. e at 16th st.", "id": 489, "type": "and 212/614-9345 asian", "class": "377", "name": "zen palate"}
+{"city": "new york", "addr": "90 prince st.  between broadway and mercer st.", "id": 490, "type": "american", "class": "378", "name": "zoe"}
+{"city": "atlanta", "addr": "163 ponce de leon ave.", "id": 491, "type": "international", "class": "379", "name": "abbey"}
+{"city": "atlanta", "addr": "783 martin luther king jr. dr.", "id": 492, "type": "barbecue", "class": "380", "name": "aleck's barbecue heaven"}
+{"city": "atlanta", "addr": "3195 roswell rd.", "id": 493, "type": "asian", "class": "381", "name": "annie's thai castle"}
+{"city": "atlanta", "addr": "3109 piedmont rd.  just south of peachtree rd.", "id": 494, "type": "american", "class": "382", "name": "anthonys"}
+{"city": "atlanta", "addr": "265 pharr rd.", "id": 495, "type": "american", "class": "383", "name": "atlanta fish market"}
+{"city": "atlanta", "addr": "260 e. paces ferry road", "id": 496, "type": "continental", "class": "384", "name": "beesley's of buckhead"}
+{"city": "atlanta", "addr": "3500 peachtree rd.  phipps plaza", "id": 497, "type": "italian", "class": "385", "name": "bertolini's"}
+{"city": "atlanta", "addr": "1100 peachtree st.", "id": 498, "type": "mediterranean", "class": "386", "name": "bistango"}
+{"city": "atlanta", "addr": "7050 jimmy carter blvd.  norcross", "id": 499, "type": "american", "class": "387", "name": "cafe renaissance"}
+{"city": "atlanta", "addr": "1186 n. highland ave.", "id": 500, "type": "italian", "class": "388", "name": "camille's"}
+{"city": "atlanta", "addr": "3300 peachtree rd.  grand hyatt", "id": 501, "type": "mediterranean", "class": "389", "name": "cassis"}
+{"city": "atlanta", "addr": "50 hurt plaza", "id": 502, "type": "international", "class": "390", "name": "city grill"}
+{"city": "atlanta", "addr": "40  buckhead crossing mall on the sidney marcus blvd.", "id": 503, "type": "caribbean", "class": "391", "name": "coco loco"}
+{"city": "atlanta", "addr": "1879 cheshire bridge rd.", "id": 504, "type": "southern", "class": "392", "name": "colonnade restaurant"}
+{"city": "atlanta", "addr": "3380 peachtree rd.", "id": 505, "type": "continental", "class": "393", "name": "dante's down the hatch  buckhead"}
+{"city": "atlanta", "addr": "underground underground mall  underground atlanta", "id": 506, "type": "continental", "class": "394", "name": "dante's down the hatch"}
+{"city": "atlanta", "addr": "1811 piedmont ave.  near cheshire bridge rd.", "id": 507, "type": "barbecue", "class": "395", "name": "fat matt's rib shack"}
+{"city": "atlanta", "addr": "923 peachtree st.  at 8th st.", "id": 508, "type": "southern", "class": "396", "name": "french quarter food shop"}
+{"city": "atlanta", "addr": "6359 jimmy carter blvd.  at buford hwy.  norcross", "id": 509, "type": "barbecue", "class": "397", "name": "holt bros. bar-b-q"}
+{"city": "atlanta", "addr": "4320 powers ferry rd.", "id": 510, "type": "southern", "class": "398", "name": "horseradish grill"}
+{"city": "atlanta", "addr": "192 peachtree center ave.  at international blvd.", "id": 511, "type": "asian", "class": "399", "name": "hsu's gourmet"}
+{"city": "atlanta", "addr": "2285 peachtree rd.  peachtree battle condominium", "id": 512, "type": "mediterranean", "class": "400", "name": "imperial fez"}
+{"city": "atlanta", "addr": "3300 peachtree rd.  grand hyatt", "id": 513, "type": "asian", "class": "401", "name": "kamogawa"}
+{"city": "atlanta", "addr": "holiday inn/crowne plaza at ravinia  dunwoody", "id": 514, "type": "italian", "class": "402", "name": "la grotta at ravinia dunwoody rd."}
+{"city": "atlanta", "addr": "c buford hwy.  northwoods plaza  doraville", "id": 515, "type": "asian", "class": "403", "name": "little szechuan"}
+{"city": "atlanta", "addr": "6301 roswell rd.  sandy springs plaza  sandy springs", "id": 516, "type": "barbecue", "class": "404", "name": "lowcountry barbecue"}
+{"city": "atlanta", "addr": "1931 peachtree rd.", "id": 517, "type": "continental", "class": "405", "name": "luna si"}
+{"city": "atlanta", "addr": "1402 n. highland ave.", "id": 518, "type": "caribbean", "class": "406", "name": "mambo restaurante cubano"}
+{"city": "atlanta", "addr": "3209 maple dr.", "id": 519, "type": "southern", "class": "407", "name": "mckinnon's louisiane"}
+{"city": "atlanta", "addr": "park place  across from perimeter mall  dunwoody", "id": 520, "type": "italian", "class": "408", "name": "mi spia dunwoody rd."}
+{"city": "atlanta", "addr": "247 buckhead ave.  east village sq.", "id": 521, "type": "fusion", "class": "409", "name": "nickiemoto's: a sushi bar"}
+{"city": "atlanta", "addr": "1829 peachtree rd.", "id": 522, "type": "continental", "class": "410", "name": "palisades"}
+{"city": "atlanta", "addr": "555 peachtree st.  at linden ave.", "id": 523, "type": "american", "class": "411", "name": "pleasant peasant"}
+{"city": "atlanta", "addr": "500 pharr rd.", "id": 524, "type": "italian", "class": "412", "name": "pricci"}
+{"city": "atlanta", "addr": "870 n. highland ave.", "id": 525, "type": "american", "class": "413", "name": "r.j.'s uptown kitchen & wine bar"}
+{"city": "atlanta", "addr": "25 irby ave.", "id": 526, "type": "barbecue", "class": "414", "name": "rib ranch"}
+{"city": "atlanta", "addr": "3043 buford hwy.", "id": 527, "type": "asian", "class": "415", "name": "sa tsu ki"}
+{"city": "atlanta", "addr": "6050 peachtree pkwy.  norcross", "id": 528, "type": "asian", "class": "416", "name": "sato sushi and thai"}
+{"city": "atlanta", "addr": "1144 crescent ave.", "id": 529, "type": "southern", "class": "417", "name": "south city kitchen"}
+{"city": "atlanta", "addr": "2345 cheshire bridge rd.", "id": 530, "type": "french", "class": "418", "name": "south of france"}
+{"city": "atlanta", "addr": "3384 shallowford rd.  chamblee", "id": 531, "type": "southern", "class": "419", "name": "stringer's fish camp and oyster bar"}
+{"city": "atlanta", "addr": "2165 cheshire bridge rd.", "id": 532, "type": "american", "class": "420", "name": "sundown cafe"}
+{"city": "atlanta", "addr": "889 w. peachtree st.", "id": 533, "type": "southern", "class": "421", "name": "taste of new orleans"}
+{"city": "atlanta", "addr": "3393 peachtree rd.", "id": 534, "type": "continental", "class": "422", "name": "tomtom"}
+{"city": "las vegas", "addr": "3700 w. flamingo", "id": 535, "type": "italian", "class": "423", "name": "antonio's"}
+{"city": "las vegas", "addr": "3645 las vegas blvd. s", "id": 536, "type": "buffets", "class": "424", "name": "bally's big kitchen"}
+{"city": "las vegas", "addr": "4850 flamingo rd.", "id": 537, "type": "asian", "class": "425", "name": "bamboo garden"}
+{"city": "las vegas", "addr": "4041 audrie st. at flamingo rd.", "id": 538, "type": "italian", "class": "426", "name": "battista's hole in the wall"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s", "id": 539, "type": "italian", "class": "427", "name": "bertolini's"}
+{"city": "las vegas", "addr": "128 fremont st.", "id": 540, "type": "coffee shops/diners", "class": "428", "name": "binion's coffee shop"}
+{"city": "las vegas", "addr": "3400 las vegas blvd. s", "id": 541, "type": "continental", "class": "429", "name": "bistro"}
+{"city": "las vegas", "addr": "4111 boulder hwy.", "id": 542, "type": "american", "class": "430", "name": "broiler"}
+{"city": "las vegas", "addr": "3555 las vegas blvd. s", "id": 543, "type": "coffee shops/diners", "class": "431", "name": "bugsy's diner"}
+{"city": "las vegas", "addr": "1350 e. flamingo rd.", "id": 544, "type": "american", "class": "432", "name": "cafe michelle"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s", "id": 545, "type": "coffee shops/diners", "class": "433", "name": "cafe roma"}
+{"city": "las vegas", "addr": "3333 s. maryland pkwy.", "id": 546, "type": "italian", "class": "434", "name": "capozzoli's"}
+{"city": "las vegas", "addr": "3700 w. flamingo rd.", "id": 547, "type": "buffets", "class": "435", "name": "carnival world"}
+{"city": "las vegas", "addr": "1 main st.", "id": 548, "type": "american", "class": "436", "name": "center stage plaza hotel"}
+{"city": "las vegas", "addr": "2880 las vegas blvd. s", "id": 549, "type": "buffets", "class": "437", "name": "circus circus"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s", "id": 550, "type": "asian", "class": "438", "name": "empress court"}
+{"city": "las vegas", "addr": "2411 w. sahara ave.", "id": 551, "type": "buffets", "class": "439", "name": "feast"}
+{"city": "las vegas", "addr": "129 e. fremont st.", "id": 552, "type": "buffets", "class": "440", "name": "golden nugget hotel"}
+{"city": "las vegas", "addr": "308 w. sahara ave.", "id": 553, "type": "steak houses", "class": "441", "name": "golden steer"}
+{"city": "las vegas", "addr": "129 e. fremont st.", "id": 554, "type": "asian", "class": "442", "name": "lillie langtry's"}
+{"city": "las vegas", "addr": "1510 e. flamingo rd.", "id": 555, "type": "asian", "class": "443", "name": "mandarin court"}
+{"city": "las vegas", "addr": "3120 las vegas blvd. s", "id": 556, "type": "mexican", "class": "444", "name": "margarita's mexican cantina"}
+{"city": "las vegas", "addr": "5111 w. boulder hwy.", "id": 557, "type": "coffee shops/diners", "class": "445", "name": "mary's diner"}
+{"city": "las vegas", "addr": "3400 las vegas blvd. s", "id": 558, "type": "asian", "class": "446", "name": "mikado"}
+{"city": "las vegas", "addr": "400 e. sahara ave.", "id": 559, "type": "continental", "class": "447", "name": "pamplemousse"}
+{"city": "las vegas", "addr": "3000 las vegas blvd. s", "id": 560, "type": "coffee shops/diners", "class": "448", "name": "ralph's diner"}
+{"city": "las vegas", "addr": "3570 las vegas blvd. s", "id": 561, "type": "only in las vegas", "class": "449", "name": "the bacchanal"}
+{"city": "las vegas", "addr": "3713 w. sahara ave.", "id": 562, "type": "italian", "class": "450", "name": "venetian"}
+{"city": "las vegas", "addr": "6182 w. flamingo rd.", "id": 563, "type": "mexican", "class": "451", "name": "viva mercado's"}
+{"city": "las vegas", "addr": "3900 paradise rd.", "id": 564, "type": "steak houses", "class": "452", "name": "yolie's"}
+{"city": "san francisco", "addr": "2223 market st.", "id": 565, "type": "american", "class": "453", "name": "2223"}
+{"city": "san francisco", "addr": "1722 sacramento st.", "id": 566, "type": "italian", "class": "454", "name": "acquarello"}
+{"city": "san francisco", "addr": "243 o'farrell st.", "id": 567, "type": "old san francisco", "class": "455", "name": "bardelli's"}
+{"city": "san francisco", "addr": "2030 union st.", "id": 568, "type": "asian", "class": "456", "name": "betelnut"}
+{"city": "san francisco", "addr": "155 steuart st.", "id": 569, "type": "french", "class": "457", "name": "bistro roti"}
+{"city": "san francisco", "addr": "56 gold st.", "id": 570, "type": "american", "class": "458", "name": "bix"}
+{"city": "san francisco", "addr": "598 fourth st.", "id": 571, "type": "french", "class": "459", "name": "bizou"}
+{"city": "san francisco", "addr": "800 greenwich st.", "id": 572, "type": "italian", "class": "460", "name": "buca giovanni"}
+{"city": "san francisco", "addr": "3347 fillmore st.", "id": 573, "type": "italian", "class": "461", "name": "cafe adriano"}
+{"city": "san francisco", "addr": "2317 chestnut st.", "id": 574, "type": "mexican/latin american/spanish", "class": "462", "name": "cafe marimba"}
+{"city": "san francisco", "addr": "625 polk st.", "id": 575, "type": "french", "class": "463", "name": "california culinary academy"}
+{"city": "san francisco", "addr": "1600 powell st.", "id": 576, "type": "italian", "class": "464", "name": "capp's corner"}
+{"city": "san francisco", "addr": "1772 market st.", "id": 577, "type": "american", "class": "465", "name": "carta"}
+{"city": "san francisco", "addr": "4th and howard sts.", "id": 578, "type": "mexican/latin american/spanish", "class": "466", "name": "chevys"}
+{"city": "san francisco", "addr": "500 jackson st.", "id": 579, "type": "american", "class": "467", "name": "cypress club"}
+{"city": "san francisco", "addr": "732 broadway", "id": 580, "type": "french", "class": "468", "name": "des alpes"}
+{"city": "san francisco", "addr": "161 sutter st.", "id": 581, "type": "greek and middle eastern", "class": "469", "name": "faz"}
+{"city": "san francisco", "addr": "1300 battery st.", "id": 582, "type": "american", "class": "470", "name": "fog city diner"}
+{"city": "san francisco", "addr": "market and new montgomery sts.", "id": 583, "type": "old san francisco", "class": "471", "name": "garden court"}
+{"city": "san francisco", "addr": "ghirardelli sq.", "id": 584, "type": "asian", "class": "472", "name": "gaylord's"}
+{"city": "san francisco", "addr": "501 geary st.", "id": 585, "type": "american", "class": "473", "name": "grand cafe hotel monaco"}
+{"city": "san francisco", "addr": "bldg. a fort mason", "id": 586, "type": "vegetarian", "class": "474", "name": "greens"}
+{"city": "san francisco", "addr": "4 embarcadero center", "id": 587, "type": "asian", "class": "475", "name": "harbor village"}
+{"city": "san francisco", "addr": "2100 van ness ave.", "id": 588, "type": "steak houses", "class": "476", "name": "harris'"}
+{"city": "san francisco", "addr": "161 steuart st.", "id": 589, "type": "american", "class": "477", "name": "harry denton's"}
+{"city": "san francisco", "addr": "320 hayes st.", "id": 590, "type": "seafood", "class": "478", "name": "hayes street grill"}
+{"city": "san francisco", "addr": "430 broadway", "id": 591, "type": "greek and middle eastern", "class": "479", "name": "helmand"}
+{"city": "san francisco", "addr": "5322 geary blvd.", "id": 592, "type": "asian", "class": "480", "name": "hong kong flower lounge"}
+{"city": "san francisco", "addr": "2332 clement st.", "id": 593, "type": "asian", "class": "481", "name": "hong kong villa"}
+{"city": "san francisco", "addr": "1521 hyde st.", "id": 594, "type": "italian", "class": "482", "name": "hyde street bistro"}
+{"city": "san francisco", "addr": "1265 battery st.", "id": 595, "type": "italian", "class": "483", "name": "il fornaio levi's plaza"}
+{"city": "san francisco", "addr": "3345 steiner st.", "id": 596, "type": "steak houses", "class": "484", "name": "izzy's steak & chop house"}
+{"city": "san francisco", "addr": "615 sacramento st.", "id": 597, "type": "old san francisco", "class": "485", "name": "jack's"}
+{"city": "san francisco", "addr": "5116 geary blvd.", "id": 598, "type": "asian", "class": "486", "name": "kabuto sushi"}
+{"city": "san francisco", "addr": "600 5th ave.", "id": 599, "type": "", "class": "487", "name": "katia's"}
+{"city": "san francisco", "addr": "221 powell st.", "id": 600, "type": "italian", "class": "488", "name": "kuleto's"}
+{"city": "san francisco", "addr": "2 new montgomery st.  at market st.", "id": 601, "type": "asian", "class": "489", "name": "kyo-ya. sheraton palace hotel"}
+{"city": "san francisco", "addr": "519 columbus ave.", "id": 602, "type": "italian", "class": "490", "name": "l'osteria del forno"}
+{"city": "san francisco", "addr": "453 bush st.", "id": 603, "type": "french", "class": "491", "name": "le central"}
+{"city": "san francisco", "addr": "133 clement st.", "id": 604, "type": "asian", "class": "492", "name": "le soleil"}
+{"city": "san francisco", "addr": "607 front st.", "id": 605, "type": "american", "class": "493", "name": "macarthur park"}
+{"city": "san francisco", "addr": "3226 mission st.", "id": 606, "type": "asian", "class": "494", "name": "manora"}
+{"city": "san francisco", "addr": "470 green st.", "id": 607, "type": "greek and middle eastern", "class": "495", "name": "maykadeh"}
+{"city": "san francisco", "addr": "ghirardelli sq.", "id": 608, "type": "seafood", "class": "496", "name": "mccormick & kuleto's"}
+{"city": "san francisco", "addr": "246 mcallister st.", "id": 609, "type": "vegetarian", "class": "497", "name": "millennium"}
+{"city": "san francisco", "addr": "1652 stockton st.", "id": 610, "type": "mediterranean", "class": "498", "name": "moose's"}
+{"city": "san francisco", "addr": "3131 webster st.", "id": 611, "type": "asian", "class": "499", "name": "north india"}
+{"city": "san francisco", "addr": "1 market st.", "id": 612, "type": "american", "class": "500", "name": "one market"}
+{"city": "san francisco", "addr": "1915 fillmore st.", "id": 613, "type": "italian", "class": "501", "name": "oritalia"}
+{"city": "san francisco", "addr": "500 post st.", "id": 614, "type": "french", "class": "502", "name": "pacific pan pacific hotel"}
+{"city": "san francisco", "addr": "640 sacramento st.", "id": 615, "type": "italian", "class": "503", "name": "palio d'asti"}
+{"city": "san francisco", "addr": "3011 steiner st.", "id": 616, "type": "italian", "class": "504", "name": "pane e vino"}
+{"city": "san francisco", "addr": "1015 battery st.", "id": 617, "type": "french", "class": "505", "name": "pastis"}
+{"city": "san francisco", "addr": "1944 union st.", "id": 618, "type": "american", "class": "506", "name": "perry's"}
+{"city": "san francisco", "addr": "631 b kearny st.", "id": 619, "type": "or 415/982-3811 asian", "class": "507", "name": "r&g lounge"}
+{"city": "san francisco", "addr": "558 sacramento st.", "id": 620, "type": "american", "class": "508", "name": "rubicon"}
+{"city": "san francisco", "addr": "1 tillman pl.", "id": 621, "type": "american", "class": "509", "name": "rumpus"}
+{"city": "san francisco", "addr": "1702 post st.", "id": 622, "type": "asian", "class": "510", "name": "sanppo"}
+{"city": "san francisco", "addr": "432 powell st.", "id": 623, "type": "italian", "class": "511", "name": "scala's bistro"}
+{"city": "san francisco", "addr": "108 south park", "id": 624, "type": "french", "class": "512", "name": "south park cafe"}
+{"city": "san francisco", "addr": "4", "id": 625, "type": "mediterranean", "class": "513", "name": "splendido embarcadero"}
+{"city": "san francisco", "addr": "150 redwood alley", "id": 626, "type": "american", "class": "514", "name": "stars"}
+{"city": "san francisco", "addr": "500 van ness ave.", "id": 627, "type": "american", "class": "515", "name": "stars cafe"}
+{"city": "san francisco", "addr": "1240 9th ave.", "id": 628, "type": "greek and middle eastern", "class": "516", "name": "stoyanof's cafe"}
+{"city": "san francisco", "addr": "3300 geary blvd.", "id": 629, "type": "asian", "class": "517", "name": "straits cafe"}
+{"city": "san francisco", "addr": "601 hayes st.", "id": 630, "type": "russian/german", "class": "518", "name": "suppenkuche"}
+{"city": "san francisco", "addr": "240 california st.", "id": 631, "type": "seafood", "class": "519", "name": "tadich grill"}
+{"city": "san francisco", "addr": "3235 sacramento st.", "id": 632, "type": "french", "class": "520", "name": "the heights"}
+{"city": "san francisco", "addr": "298 gough st.", "id": 633, "type": "asian", "class": "521", "name": "thepin"}
+{"city": "san francisco", "addr": "3148 geary blvd.", "id": 634, "type": "asian", "class": "522", "name": "ton kiang"}
+{"city": "san francisco", "addr": "600 montgomery st.", "id": 635, "type": "mediterranean", "class": "523", "name": "vertigo"}
+{"city": "san francisco", "addr": "2125 fillmore st.", "id": 636, "type": "italian", "class": "524", "name": "vivande porta via"}
+{"city": "san francisco", "addr": "670 golden gate ave.", "id": 637, "type": "italian", "class": "525", "name": "vivande ristorante"}
+{"city": "san francisco", "addr": "2257 chestnut st.", "id": 638, "type": "american", "class": "526", "name": "world wrapps"}
+{"city": "san francisco", "addr": "101 spear st.", "id": 639, "type": "asian", "class": "527", "name": "wu kong"}
+{"city": "san francisco", "addr": "427 battery st.", "id": 640, "type": "asian", "class": "528", "name": "yank sing"}
+{"city": "san francisco", "addr": "1220 9th ave.", "id": 641, "type": "greek and middle eastern", "class": "529", "name": "yaya cuisine"}
+{"city": "san francisco", "addr": "1611 post st.", "id": 642, "type": "french", "class": "530", "name": "yoyo tsumami bistro"}
+{"city": "san francisco", "addr": "2000 hyde st.", "id": 643, "type": "mexican/latin american/spanish", "class": "531", "name": "zarzuela"}
+{"city": "san francisco", "addr": "1658 market st.", "id": 644, "type": "mediterranean", "class": "532", "name": "zuni cafe & grill"}
+{"city": "west la", "addr": "10801 w. pico blvd.", "id": 645, "type": "american", "class": "534", "name": "apple pan  the"}
+{"city": "west la", "addr": "2027 sawtelle blvd.", "id": 646, "type": "noodle shops", "class": "535", "name": "asahi ramen"}
+{"city": "westlake village", "addr": "3345 kimber dr.", "id": 647, "type": "mexican", "class": "536", "name": "baja fresh"}
+{"city": "beverly hills", "addr": "9882 little santa monica blvd.", "id": 648, "type": "pacific new wave", "class": "537", "name": "belvedere  the"}
+{"city": "santa monica", "addr": "1433 third st. promenade", "id": 649, "type": "fast food", "class": "538", "name": "benita's frites"}
+{"city": "los angeles", "addr": "515 s. olive st.", "id": 650, "type": "continental", "class": "539", "name": "bernard's"}
+{"city": "pasadena", "addr": "45 s. mentor ave.", "id": 651, "type": "californian", "class": "540", "name": "bistro 45"}
+{"city": "northridge", "addr": "19565 parthenia ave.", "id": 652, "type": "delis", "class": "541", "name": "brent's deli"}
+{"city": "beverly hills", "addr": "9600 brighton way", "id": 653, "type": "coffee shops", "class": "542", "name": "brighton coffee shop"}
+{"city": "pasadena", "addr": "1570 rosecrans ave. s.", "id": 654, "type": "californian", "class": "543", "name": "bristol farms market cafe"}
+{"city": "mar vista", "addr": "3838 centinela ave.", "id": 655, "type": "italian", "class": "544", "name": "bruno's"}
+{"city": "venice", "addr": "838 lincoln blvd.", "id": 656, "type": "american", "class": "545", "name": "cafe '50s"}
+{"city": "beverly hills", "addr": "9777 little santa monica blvd.", "id": 657, "type": "pacific new wave", "class": "546", "name": "cafe blanc"}
+{"city": "la", "addr": "3266 w. sixth st.", "id": 658, "type": "hamburgers", "class": "547", "name": "cassell's"}
+{"city": "redondo beach", "addr": "1716 pch", "id": 659, "type": "eclectic", "class": "548", "name": "chez melange"}
+{"city": "w. hollywood", "addr": "1020 n. san vicente blvd.", "id": 660, "type": "russian", "class": "549", "name": "diaghilev"}
+{"city": "westwood", "addr": "1136 westwood blvd.", "id": 661, "type": "italian", "class": "550", "name": "don antonio's"}
+{"city": "w. hollywood", "addr": "8909 sunset blvd.", "id": 662, "type": "coffee shops", "class": "551", "name": "duke's"}
+{"city": "westwood", "addr": "1059 broxton ave.", "id": 663, "type": "middle eastern", "class": "552", "name": "falafel king"}
+{"city": "west la", "addr": "1949 westwood blvd.", "id": 664, "type": "chinese", "class": "553", "name": "feast from the east"}
+{"city": "la", "addr": "6333 w. third st.", "id": 665, "type": "cajun/creole", "class": "554", "name": "gumbo pot  the"}
+{"city": "hollywood", "addr": "6145 franklin ave.", "id": 666, "type": "coffee shops", "class": "555", "name": "hollywood hills coffee shop"}
+{"city": "la", "addr": "10428 1/2 national blvd.", "id": 667, "type": "indonesian", "class": "556", "name": "indo cafe"}
+{"city": "la", "addr": "8424 beverly blvd.", "id": 668, "type": "coffee shops", "class": "557", "name": "jan's family restaurant"}
+{"city": "santa monica", "addr": "502 santa monica blvd", "id": 669, "type": "californian", "class": "558", "name": "jiraffe"}
+{"city": "venice", "addr": "2011 ocean front walk", "id": 670, "type": "hot dogs", "class": "559", "name": "jody maroni's sausage kingdom"}
+{"city": "venice", "addr": "1023 abbot kinney blvd.", "id": 671, "type": "american (new)", "class": "560", "name": "joe's"}
+{"city": "west la", "addr": "10516 w. pico blvd.", "id": 672, "type": "coffee shops", "class": "561", "name": "john o'groats"}
+{"city": "culver city", "addr": "4017 s. sepulveda blvd.", "id": 673, "type": "delis", "class": "562", "name": "johnnie's pastrami"}
+{"city": "long beach", "addr": "4663 long beach blvd.", "id": 674, "type": "southern/soul", "class": "563", "name": "johnny reb's southern smokehouse"}
+{"city": "la", "addr": "7507 melrose ave.", "id": 675, "type": "american", "class": "564", "name": "johnny rockets (la)"}
+{"city": "studio city", "addr": "4000 colfax ave.", "id": 676, "type": "seafood", "class": "565", "name": "killer shrimp"}
+{"city": "la", "addr": "6333 w. third st.", "id": 677, "type": "american", "class": "566", "name": "kokomo cafe"}
+{"city": "la", "addr": "8393 w. beverly blvd.", "id": 678, "type": "chicken", "class": "567", "name": "koo koo roo"}
+{"city": "century city", "addr": "10506 little santa monica blvd.", "id": 679, "type": "french (new)", "class": "568", "name": "la cachette"}
+{"city": "malibu", "addr": "22800 pch", "id": 680, "type": "mexican", "class": "569", "name": "la salsa (la)"}
+{"city": "st. boyle hts.", "addr": "1842 e. first", "id": 681, "type": "mexican/tex-mex", "class": "570", "name": "la serenata de garibaldi"}
+{"city": "la", "addr": "704 s. alvarado st.", "id": 682, "type": "delis", "class": "571", "name": "langer's"}
+{"city": "westlake village", "addr": "30869 thousand oaks blvd.", "id": 683, "type": "health food", "class": "572", "name": "local nochol"}
+{"city": "rancho park", "addr": "10509 w. pico blvd.", "id": 684, "type": "american", "class": "573", "name": "main course  the"}
+{"city": "la", "addr": "519 s. fairfax ave.", "id": 685, "type": "desserts", "class": "574", "name": "mani's bakery & espresso bar"}
+{"city": "st. hermosa beach", "addr": "22nd street grill 25 22nd", "id": 686, "type": "american", "class": "575", "name": "martha's"}
+{"city": "marina del rey", "addr": "13329 washington blvd.", "id": 687, "type": "american", "class": "576", "name": "maxwell's cafe"}
+{"city": "santa monica", "addr": "1147 third st.", "id": 688, "type": "californian", "class": "577", "name": "michael's (los angeles)"}
+{"city": "la", "addr": "8474 w. third st.", "id": 689, "type": "noodle shops", "class": "578", "name": "mishima"}
+{"city": "la", "addr": "7261 melrose ave.", "id": 690, "type": "hamburgers", "class": "579", "name": "mo better meatty meat"}
+{"city": "encino", "addr": "17040 ventura blvd.", "id": 691, "type": "pizza", "class": "580", "name": "mulberry st."}
+{"city": "santa monica", "addr": "3117 ocean park blvd.", "id": 692, "type": "american", "class": "581", "name": "ocean park cafe"}
+{"city": "monterey park", "addr": "145 n. atlantic blvd.", "id": 693, "type": "seafood", "class": "582", "name": "ocean star"}
+{"city": "la", "addr": "875 s. figueroa st. downtown", "id": 694, "type": "diners", "class": "583", "name": "original pantry bakery"}
+{"city": "pasadena", "addr": "510 s. arroyo pkwy.", "id": 695, "type": "californian", "class": "584", "name": "parkway grill"}
+{"city": "chinatown", "addr": "642 broadway", "id": 696, "type": "vietnamese", "class": "585", "name": "pho hoa"}
+{"city": "la", "addr": "709 n. la brea ave.", "id": 697, "type": "hot dogs", "class": "586", "name": "pink's famous chili dogs"}
+{"city": "burbank", "addr": "2635 w. olive ave.", "id": 698, "type": "mexican", "class": "587", "name": "poquito mas"}
+{"city": "los angeles", "addr": "923 e. third st.", "id": 699, "type": "japanese", "class": "588", "name": "r-23"}
+{"city": "santa monica", "addr": "2901 pico blvd.", "id": 700, "type": "diners", "class": "589", "name": "rae's"}
+{"city": "encino", "addr": "15322 ventura blvd.", "id": 701, "type": "hot dogs", "class": "590", "name": "rubin's red hots"}
+{"city": "pasadena", "addr": "45 s. fair oaks ave.", "id": 702, "type": "diners", "class": "591", "name": "ruby's (la)"}
+{"city": "seal beach", "addr": "1198 pch", "id": 703, "type": "hamburgers", "class": "592", "name": "russell's burgers"}
+{"city": "beverly hills", "addr": "224 s. beverly dr.", "id": 704, "type": "steakhouses", "class": "593", "name": "ruth's chris steak house (los angeles)"}
+{"city": "pasadena", "addr": "1505 mission st. s.", "id": 705, "type": "pacific new wave", "class": "594", "name": "shiro"}
+{"city": "studio city", "addr": "11288 ventura blvd.", "id": 706, "type": "japanese", "class": "595", "name": "sushi nozawa"}
+{"city": "la", "addr": "8360 melrose ave.", "id": 707, "type": "desserts", "class": "596", "name": "sweet lady jane"}
+{"city": "brentwood", "addr": "11677 san vicente blvd.", "id": 708, "type": "noodle shops", "class": "597", "name": "taiko"}
+{"city": "la", "addr": "2575 beverly blvd.", "id": 709, "type": "hamburgers", "class": "598", "name": "tommy's"}
+{"city": "manhattan beach", "addr": "1305 highland ave.", "id": 710, "type": "diners", "class": "599", "name": "uncle bill's pancake house"}
+{"city": "los angeles", "addr": "544 s. grand ave.", "id": 711, "type": "seafood", "class": "600", "name": "water grill"}
+{"city": "glendale", "addr": "1415 e. colorado st.", "id": 712, "type": "middle eastern", "class": "601", "name": "zankou chicken"}
+{"city": "new york city", "addr": "764 ninth ave.", "id": 713, "type": "afghan", "class": "602", "name": "afghan kebab house"}
+{"city": "new york city", "addr": "21 e. 62nd st.", "id": 714, "type": "american (new)", "class": "603", "name": "arcadia"}
+{"city": "new york city", "addr": "93 ave. a", "id": 715, "type": "mexican", "class": "604", "name": "benny's burritos"}
+{"city": "new york city", "addr": "424 amsterdam ave.", "id": 716, "type": "cuban", "class": "605", "name": "cafe con leche"}
+{"city": "new york city", "addr": "331 w. fourth st.", "id": 717, "type": "hamburgers", "class": "606", "name": "corner bistro"}
+{"city": "new york city", "addr": "368 bleecker st.", "id": 718, "type": "italian", "class": "607", "name": "cucina della fontana"}
+{"city": "new york city", "addr": "87 e. fourth st.", "id": 719, "type": "seafood", "class": "608", "name": "cucina di pesce"}
+{"city": "new york city", "addr": "44 w. 56th st.", "id": 720, "type": "indian", "class": "609", "name": "darbar"}
+{"city": "new york city", "addr": "432 sixth ave.", "id": 721, "type": "diners", "class": "610", "name": "ej's luncheonette"}
+{"city": "new york city", "addr": "228 w. 47th st.", "id": 722, "type": "diners", "class": "611", "name": "edison cafe"}
+{"city": "queens", "addr": "24-02 31st st.", "id": 723, "type": "greek", "class": "612", "name": "elias corner"}
+{"city": "new york city", "addr": "483 amsterdam ave.", "id": 724, "type": "american", "class": "613", "name": "good enough to eat"}
+{"city": "new york city", "addr": "2090 broadway", "id": 725, "type": "hot dogs", "class": "614", "name": "gray's papaya"}
+{"city": "new york city", "addr": "86 w. third st.", "id": 726, "type": "italian", "class": "615", "name": "il mulino"}
+{"city": "queens", "addr": "37-03 74th st.", "id": 727, "type": "indian", "class": "616", "name": "jackson diner"}
+{"city": "queens", "addr": "9 pell st.", "id": 728, "type": "chinese", "class": "617", "name": "joe's shanghai"}
+{"city": "new york city", "addr": "48 w. 65th st.", "id": 729, "type": "pizza", "class": "618", "name": "john's pizzeria"}
+{"city": "new york city", "addr": "127 greene st.", "id": 730, "type": "pan-asian", "class": "619", "name": "kelley & ping"}
+{"city": "new york city", "addr": "117 second ave.", "id": 731, "type": "ukrainian", "class": "620", "name": "kiev"}
+{"city": "new york city", "addr": "2nd fl.", "id": 732, "type": "japanese", "class": "621", "name": "kuruma zushi"}
+{"city": "new york city", "addr": "2199 broadway", "id": 733, "type": "cuban", "class": "622", "name": "la caridad"}
+{"city": "new york city", "addr": "3 e. 52nd st.", "id": 734, "type": "french (classic)", "class": "623", "name": "la grenouille"}
+{"city": "brooklyn", "addr": "61a seventh ave.", "id": 735, "type": "thai", "class": "624", "name": "lemongrass grill"}
+{"city": "new york city", "addr": "32 spring st.", "id": 736, "type": "pizza", "class": "625", "name": "lombardi's"}
+{"city": "new york city", "addr": "466 hudson st.", "id": 737, "type": "asian", "class": "626", "name": "marnie's noodle shop"}
+{"city": "new york city", "addr": "39 w. 55th st.", "id": 738, "type": "japanese", "class": "627", "name": "menchanko-tei"}
+{"city": "new york city", "addr": "296 bleecker st.", "id": 739, "type": "indian", "class": "628", "name": "mitali east-west"}
+{"city": "new york city", "addr": "435 amsterdam ave.", "id": 740, "type": "thai", "class": "629", "name": "monsoon (ny)"}
+{"city": "brooklyn", "addr": "405 atlantic ave.", "id": 741, "type": "middle eastern", "class": "630", "name": "moustache"}
+{"city": "new york city", "addr": "105 hudson st.", "id": 742, "type": "japanese", "class": "631", "name": "nobu"}
+{"city": "new york city", "addr": "17 barrow st.", "id": 743, "type": "continental", "class": "632", "name": "one if by land  tibs"}
+{"city": "new york city", "addr": "lower level", "id": 744, "type": "seafood", "class": "633", "name": "oyster bar"}
+{"city": "new york city", "addr": "837 second ave.", "id": 745, "type": "steakhouses", "class": "634", "name": "palm"}
+{"city": "new york city", "addr": "840 second ave.", "id": 746, "type": "steakhouses", "class": "635", "name": "palm too"}
+{"city": "brooklyn", "addr": "19 old fulton st.", "id": 747, "type": "pizza", "class": "636", "name": "patsy's pizza"}
+{"city": "brooklyn", "addr": "178 broadway", "id": 748, "type": "steakhouses", "class": "637", "name": "peter luger steak house"}
+{"city": "new york city", "addr": "308 e. sixth st.", "id": 749, "type": "indian", "class": "638", "name": "rose of india"}
+{"city": "new york city", "addr": "411 third ave.", "id": 750, "type": "chinese", "class": "639", "name": "sam's noodle shop"}
+{"city": "new york city", "addr": "1295 madison ave.", "id": 751, "type": "american", "class": "640", "name": "sarabeth's"}
+{"city": "new york city", "addr": "210 e. 46th st.", "id": 752, "type": "steakhouses", "class": "641", "name": "sparks steak house"}
+{"city": "queens", "addr": "5-16 51st ave.", "id": 753, "type": "bbq", "class": "642", "name": "stick to your ribs"}
+{"city": "new york city", "addr": "38 e. 51st st.", "id": 754, "type": "japanese", "class": "643", "name": "sushisay"}
+{"city": "new york city", "addr": "328 lenox ave.", "id": 755, "type": "southern/soul", "class": "644", "name": "sylvia's"}
+{"city": "new york city", "addr": "1588 york ave.", "id": 756, "type": "chinese", "class": "645", "name": "szechuan hunan cottage"}
+{"city": "new york city", "addr": "1460 first ave.", "id": 757, "type": "chinese", "class": "646", "name": "szechuan kitchen"}
+{"city": "queens", "addr": "80 montague st.", "id": 758, "type": "polish", "class": "647", "name": "teresa's"}
+{"city": "new york city", "addr": "151 hudson st.", "id": 759, "type": "thai", "class": "648", "name": "thai house cafe"}
+{"city": "new york city", "addr": "106 bayard st.", "id": 760, "type": "thai", "class": "649", "name": "thailand restaurant"}
+{"city": "new york city", "addr": "144 second ave.", "id": 761, "type": "ukrainian", "class": "650", "name": "veselka"}
+{"city": "new york city", "addr": "689 ninth ave.", "id": 762, "type": "chinese", "class": "651", "name": "westside cottage"}
+{"city": "new york city", "addr": "107th fl.", "id": 763, "type": "eclectic", "class": "652", "name": "windows on the world"}
+{"city": "new york city", "addr": "205 e. 49th st.", "id": 764, "type": "steakhouses", "class": "653", "name": "wollensky's grill"}
+{"city": "new york city", "addr": "122 e. 17th st.", "id": 765, "type": "japanese", "class": "654", "name": "yama"}
+{"city": "new york city", "addr": "953 second ave.", "id": 766, "type": "mexican", "class": "655", "name": "zarela"}
+{"city": "las vegas", "addr": "401 s. 6th st.", "id": 767, "type": "french (classic)", "class": "656", "name": "andre's french restaurant"}
+{"city": "las vegas", "addr": "3300 las vegas blvd. s.", "id": 768, "type": "continental", "class": "657", "name": "buccaneer bay club"}
+{"city": "las vegas", "addr": "3700 w. flamingo rd.", "id": 769, "type": "seafood", "class": "658", "name": "buzio's in the rio"}
+{"city": "las vegas", "addr": "3799 las vegas blvd. s.", "id": 770, "type": "seafood", "class": "659", "name": "emeril's new orleans fish house"}
+{"city": "las vegas", "addr": "3700 w. flamingo rd.", "id": 771, "type": "italian", "class": "660", "name": "fiore rotisserie & grille"}
+{"city": "las vegas", "addr": "202 e. fremont st.", "id": 772, "type": "continental", "class": "661", "name": "hugo's cellar"}
+{"city": "las vegas", "addr": "3300 las vegas blvd. s.", "id": 773, "type": "asian", "class": "662", "name": "madame ching's"}
+{"city": "las vegas", "addr": "4750 w. sahara ave.", "id": 774, "type": "chinese", "class": "663", "name": "mayflower cuisinier"}
+{"city": "las vegas", "addr": "3595 las vegas blvd. s.", "id": 775, "type": "continental", "class": "664", "name": "michael's (las vegas)"}
+{"city": "las vegas", "addr": "3145 las vegas blvd. s.", "id": 776, "type": "french (new)", "class": "665", "name": "monte carlo"}
+{"city": "las vegas", "addr": "3400 las vegas blvd. s.", "id": 777, "type": "chinese", "class": "666", "name": "moongate"}
+{"city": "las vegas", "addr": "3200 las vegas blvd. s.", "id": 778, "type": "steakhouses", "class": "667", "name": "morton's of chicago (las vegas)"}
+{"city": "las vegas", "addr": "3925 paradise rd.", "id": 779, "type": "italian", "class": "668", "name": "nicky blair's"}
+{"city": "las vegas", "addr": "355 convention center dr.", "id": 780, "type": "italian", "class": "669", "name": "piero's restaurant"}
+{"city": "las vegas", "addr": "3500 las vegas blvd. s.", "id": 781, "type": "californian", "class": "670", "name": "spago (las vegas)"}
+{"city": "las vegas", "addr": "128 e. fremont st.", "id": 782, "type": "steakhouses", "class": "671", "name": "steakhouse  the"}
+{"city": "las vegas", "addr": "129 fremont st.", "id": 783, "type": "italian", "class": "672", "name": "stefano's"}
+{"city": "las vegas", "addr": "3645 las vegas blvd. s.", "id": 784, "type": "eclectic", "class": "673", "name": "sterling brunch"}
+{"city": "las vegas", "addr": "3799 las vegas blvd. s.", "id": 785, "type": "italian", "class": "674", "name": "tre visi"}
+{"city": "atlanta", "addr": "103 w. paces ferry rd.", "id": 786, "type": "continental", "class": "675", "name": "103 west"}
+{"city": "atlanta", "addr": "659 peachtree st.", "id": 787, "type": "sandwiches", "class": "676", "name": "alon's at the terrace"}
+{"city": "atlanta", "addr": "1134 euclid ave.", "id": 788, "type": "cajun/creole", "class": "677", "name": "baker's cajun cafe"}
+{"city": "atlanta", "addr": "1437 virginia ave.", "id": 789, "type": "bbq", "class": "678", "name": "barbecue kitchen"}
+{"city": "atlanta", "addr": "56 e. andrews dr. nw", "id": 790, "type": "french bistro", "class": "679", "name": "bistro  the"}
+{"city": "atlanta", "addr": "375 14th st.", "id": 791, "type": "southern/soul", "class": "680", "name": "bobby & june's kountry kitchen"}
+{"city": "atlanta", "addr": "2911 s. pharr court", "id": 792, "type": "southern/soul", "class": "681", "name": "bradshaw's restaurant"}
+{"city": "atlanta", "addr": "4274 peachtree rd.", "id": 793, "type": "vegetarian", "class": "682", "name": "brookhaven cafe"}
+{"city": "atlanta", "addr": "5975 roswell rd.", "id": 794, "type": "health food", "class": "683", "name": "cafe sunflower"}
+{"city": "atlanta", "addr": "4199 paces ferry rd.", "id": 795, "type": "american (new)", "class": "684", "name": "canoe"}
+{"city": "marietta", "addr": "1021 cobb pkwy. se", "id": 796, "type": "hamburgers", "class": "685", "name": "carey's"}
+{"city": "marietta", "addr": "1215 powers ferry rd.", "id": 797, "type": "hamburgers", "class": "686", "name": "carey's corner"}
+{"city": "atlanta", "addr": "70 w. paces ferry rd.", "id": 798, "type": "steakhouses", "class": "687", "name": "chops"}
+{"city": "atlanta", "addr": "4279 roswell rd.", "id": 799, "type": "chinese", "class": "688", "name": "chopstix"}
+{"city": "atlanta", "addr": "1029 edgewood ave. se", "id": 800, "type": "southern/soul", "class": "689", "name": "deacon burton's soulfood restaurant"}
+{"city": "atlanta", "addr": "600 ponce de leon ave.", "id": 801, "type": "italian", "class": "690", "name": "eats"}
+{"city": "atlanta", "addr": "1655 mclendon ave.", "id": 802, "type": "eclectic", "class": "691", "name": "flying biscuit  the"}
+{"city": "atlanta", "addr": "1031 peachtree st. ne", "id": 803, "type": "tex-mex", "class": "692", "name": "frijoleros"}
+{"city": "roswell", "addr": "1087 green st.", "id": 804, "type": "southern/soul", "class": "693", "name": "greenwood's"}
+{"city": "atlanta", "addr": "171 mcdonough blvd.", "id": 805, "type": "bbq", "class": "694", "name": "harold's barbecue"}
+{"city": "atlanta", "addr": "2905 buford hwy.", "id": 806, "type": "cuban", "class": "695", "name": "havana sandwich shop"}
+{"city": "smyrna", "addr": "2469 cobb pkwy.", "id": 807, "type": "chinese", "class": "696", "name": "house of chan"}
+{"city": "duluth", "addr": "3675 satellite blvd.", "id": 808, "type": "indian", "class": "697", "name": "indian delights"}
+{"city": "atlanta", "addr": "790 ponce de leon ave.", "id": 809, "type": "coffee shops", "class": "698", "name": "java jive"}
+{"city": "atlanta", "addr": "2970 cobb pkwy.", "id": 810, "type": "american", "class": "699", "name": "johnny rockets (at)"}
+{"city": "decatur", "addr": "1248 clairmont rd.", "id": 811, "type": "coffeehouses", "class": "700", "name": "kalo's coffee house"}
+{"city": "atlanta", "addr": "4427 roswell rd.", "id": 812, "type": "spanish", "class": "701", "name": "la fonda latina"}
+{"city": "duluth", "addr": "3525 mall blvd.", "id": 813, "type": "cafeterias", "class": "702", "name": "lettuce souprise you (at)"}
+{"city": "atlanta", "addr": "1031 ponce de leon ave.", "id": 814, "type": "diners", "class": "703", "name": "majestic"}
+{"city": "atlanta", "addr": "303 peachtree st. ne", "id": 815, "type": "steakhouses", "class": "704", "name": "morton's of chicago (atlanta)"}
+{"city": "atlanta", "addr": "1248 clairmont rd.", "id": 816, "type": "thai", "class": "705", "name": "my thai"}
+{"city": "atlanta", "addr": "3060 peachtree rd.", "id": 817, "type": "southwestern", "class": "706", "name": "nava"}
+{"city": "atlanta", "addr": "1495 chattahoochee ave. nw", "id": 818, "type": "mexican", "class": "707", "name": "nuevo laredo cantina"}
+{"city": "atlanta", "addr": "4330 peachtree rd.", "id": 819, "type": "american", "class": "708", "name": "original pancake house (at)"}
+{"city": "atlanta", "addr": "3391 peachtree rd. ne", "id": 820, "type": "steakhouses", "class": "709", "name": "palm  the (atlanta)"}
+{"city": "decatur", "addr": "2118 n. decatur rd.", "id": 821, "type": "vegetarian", "class": "710", "name": "rainbow restaurant"}
+{"city": "atlanta", "addr": "181 peachtree st.", "id": 822, "type": "american (new)", "class": "711", "name": "ritz-carlton cafe (atlanta)"}
+{"city": "atlanta", "addr": "519 e. paces ferry rd.", "id": 823, "type": "mediterranean", "class": "712", "name": "riviera"}
+{"city": "atlanta", "addr": "200 14th st. nw", "id": 824, "type": "coffee shops", "class": "713", "name": "silver skillet  the"}
+{"city": "atlanta", "addr": "3330 piedmont rd.", "id": 825, "type": "japanese", "class": "714", "name": "soto"}
+{"city": "atlanta", "addr": "764 marietta st. nw", "id": 826, "type": "cafeterias", "class": "715", "name": "thelma's kitchen"}
+{"city": "atlanta", "addr": "774 ponce de leon ave. ne", "id": 827, "type": "tex-mex", "class": "716", "name": "tortillas"}
+{"city": "roswell", "addr": "70 w. crossville rd.", "id": 828, "type": "american (new)", "class": "717", "name": "van gogh's restaurant & bar"}
+{"city": "atlanta", "addr": "220 sandy springs circle", "id": 829, "type": "vegetarian", "class": "718", "name": "veggieland"}
+{"city": "atlanta", "addr": "3172 peachtree rd. ne", "id": 830, "type": "diners", "class": "719", "name": "white house restaurant"}
+{"city": "college park", "addr": "4837 old national hwy.", "id": 831, "type": "thai", "class": "720", "name": "zab-e-lee"}
+{"city": "san francisco", "addr": "2315 clement st.", "id": 832, "type": "hamburgers", "class": "721", "name": "bill's place"}
+{"city": "san francisco", "addr": "2298 market st.", "id": 833, "type": "californian", "class": "722", "name": "cafe flore"}
+{"city": "san francisco", "addr": "423 columbus ave.", "id": 834, "type": "continental", "class": "723", "name": "caffe greco"}
+{"city": "san francisco", "addr": "240 columbus ave.", "id": 835, "type": "mexican", "class": "724", "name": "campo santo"}
+{"city": "san francisco", "addr": "1805 haight st.", "id": 836, "type": "caribbean", "class": "725", "name": "cha cha cha's"}
+{"city": "san francisco", "addr": "2217 union st.", "id": 837, "type": "american", "class": "726", "name": "doidge's"}
+{"city": "san francisco", "addr": "522 jones st.", "id": 838, "type": "diners", "class": "727", "name": "dottie's true blue cafe"}
+{"city": "san francisco", "addr": "3221 mission st.", "id": 839, "type": "thai", "class": "728", "name": "dusit thai"}
+{"city": "san francisco", "addr": "1283 ninth ave.", "id": 840, "type": "japanese", "class": "729", "name": "ebisu"}
+{"city": "san francisco", "addr": "1550 california st.", "id": 841, "type": "vietnamese", "class": "730", "name": "emerald garden restaurant"}
+{"city": "san francisco", "addr": "1500 church st.", "id": 842, "type": "chinese", "class": "731", "name": "eric's chinese restaurant"}
+{"city": "san francisco", "addr": "1582 folsom st.", "id": 843, "type": "hamburgers", "class": "732", "name": "hamburger mary's"}
+{"city": "san francisco", "addr": "333 bush st.", "id": 844, "type": "californian", "class": "733", "name": "kelly's on trinity"}
+{"city": "san francisco", "addr": "515 valencia st.", "id": 845, "type": "mexican", "class": "734", "name": "la cumbre"}
+{"city": "san francisco", "addr": "288 noe st.", "id": 846, "type": "mediterranean", "class": "735", "name": "la mediterranee"}
+{"city": "san francisco", "addr": "2889 mission st.", "id": 847, "type": "mexican", "class": "736", "name": "la taqueria"}
+{"city": "san francisco", "addr": "2209 polk st.", "id": 848, "type": "italian", "class": "737", "name": "mario's bohemian cigar store cafe"}
+{"city": "san francisco", "addr": "2225 irving st.", "id": 849, "type": "thai", "class": "738", "name": "marnee thai"}
+{"city": "san francisco", "addr": "3355 geary st.", "id": 850, "type": "hamburgers", "class": "739", "name": "mel's drive-in"}
+{"city": "san francisco", "addr": "1322 grant st.", "id": 851, "type": "hamburgers", "class": "740", "name": "mo's burgers"}
+{"city": "san francisco", "addr": "631 larkin st.", "id": 852, "type": "cambodian", "class": "741", "name": "phnom penh cambodian restaurant"}
+{"city": "san francisco", "addr": "2817 24th st.", "id": 853, "type": "mexican", "class": "742", "name": "roosevelt tamale parlor"}
+{"city": "san francisco", "addr": "300 de haro st.", "id": 854, "type": "american", "class": "743", "name": "sally's cafe & bakery"}
+{"city": "san francisco", "addr": "1328 18th st.", "id": 855, "type": "thai", "class": "744", "name": "san francisco bbq"}
+{"city": "san francisco", "addr": "584 valencia st.", "id": 856, "type": "vietnamese", "class": "745", "name": "slanted door"}
+{"city": "san francisco", "addr": "1517 polk st.", "id": 857, "type": "seafood", "class": "746", "name": "swan oyster depot"}
+{"city": "san francisco", "addr": "400 waller st.", "id": 858, "type": "thai", "class": "747", "name": "thep phanom"}
+{"city": "san francisco", "addr": "3108 16th st.", "id": 859, "type": "french", "class": "748", "name": "ti couz"}
+{"city": "san francisco", "addr": "1870 fillmore st.", "id": 860, "type": "american", "class": "749", "name": "trio cafe"}
+{"city": "san francisco", "addr": "8 sixth st.", "id": 861, "type": "vietnamese", "class": "750", "name": "tu lan"}
+{"city": "san francisco", "addr": "201 ivy st.", "id": 862, "type": "pizza", "class": "751", "name": "vicolo pizzeria"}
+{"city": "san francisco", "addr": "2141 polk st.", "id": 863, "type": "mexican", "class": "752", "name": "wa-ha-ka oaxaca mexican grill"}

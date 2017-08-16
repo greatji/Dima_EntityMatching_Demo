@@ -1,0 +1,156 @@
+{% load static %}
+<html>
+<head>
+	<title>Dima——EntityMatching</title>
+	<script type="text/JavaScript" src="{% static "scripts/jquery-3.2.1.min.js" %}"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>  
+<body>
+<div class="container-fluid">
+<div class="alert alert-danger" style="display: none;" role="alert" id="danger"><strong>ERROR: </strong>Dima Failed, please recheck the input file</div>
+<div class="alert alert-info" style="display: none;" role="alert" id="info"><strong>LOADING: </strong>Dima Engine is running, please wait</div>
+<div class="alert alert-success" style="display: none;" role="alert" id="success">
+	<strong>SUCCESS: <strong>
+  	<a href="#" class="alert-link">Please click here to get the result</a>
+</div>
+<div class="row">
+ 	<div class="col-md-6">
+		<h3>Upload the data file</h3>
+		<form action="/entity_matching/test/datafile/" method="post" enctype="multipart/form-data">{% csrf_token %}
+  		<div class="form-group">
+    	<label>Table Name</label>
+    	<input type="text" name="name" class="form-control" style="width: 50%;" placeholder="Table Name">
+  		</div>
+  		<div class="form-group">
+    	<label>Data File</label>
+    	<input type="file" name="file">
+   	 	<p class="help-block">Support Json File With Field "id"</p>
+  		</div>
+  		<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+  	<div class="col-md-6">
+		<h3>Upload the rule file</h3>
+		<form action="/entity_matching/test/rulefile/" method="post" enctype="multipart/form-data">{% csrf_token %}
+  		<div class="form-group">
+    	<label>Rule File</label>
+    	<input type="file" name="file">
+   	 	<p class="help-block">Each rule contains fieldName, simFunc and threshold</p>
+  		</div>
+  		<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+</div>
+<div class="row">
+  	<div class="col-md-6">
+		<h3>Choose the left table</h3>
+		<select onclick="getDataFileList(this)" id="left" class="selectpicker">
+  		<option value ="null">No choice</option>
+		</select>
+	</div>
+  	<div class="col-md-6">
+		<h3>Choose the rule file</h3>
+		<select onclick="getRuleFileList(this)" id="rule">
+  		<option value ="null">No choice</option>
+		</select>
+	</div>
+</div>
+<div class="row">
+  	<div class="col-md-12">
+		<h3>Choose the right table</h3>
+		<select onclick="getDataFileList(this)" id="right">
+  		<option value ="null">No choice</option>
+		</select>
+	</div>
+</div>
+<br><br>
+<button onclick="callEntityMatching()" class="btn btn-primary btn-lg">Click Here to run the EntityMatching</button>
+</div>
+</body>
+<script>
+function getDataFileList(ele) {
+	$.get("/entity_matching/test/datafile/", function(result){
+    	data = result['datafile']
+		$(ele).empty()
+		for (var i = 0; i < data.length; i ++) {
+			$(ele).append('<option value ="' + data[i] + '">' + data[i] + '</option>')
+		}
+  	});
+}
+function getRuleFileList(ele) {
+	$.get("/entity_matching/test/rulefile/", function(result){
+    	data = result['rulefile']
+		$(ele).empty()
+		for (var i = 0; i < data.length; i ++) {
+			$(ele).append('<option value ="' + data[i] + '">' + data[i] + '</option>')
+		}
+  	});
+}
+function callEntityMatching() {
+	left = $("#left").val()
+	right = $("#right").val()
+	rule = $('#rule').val()
+	if (left == "null") {
+		alert("You must choose one data file as input of the left table!")
+		return
+	} else if (right == "null") {
+		alert("You must choose one data file as input of the right table!")
+		return
+	} else if (rule == "null") {
+		alert("You must choose one rule file!")
+		return
+	}
+	$.ajax({
+  		url: "/entity_matching/test/entity_matching/",
+  		data: {
+			"left": left,
+			"right": right,
+			"rule": rule
+		},
+		beforeSend: function(request) {
+			$("button").attr("disabled", "disabled")
+			enableInfo()
+		},
+		complete: function(request) {
+			$("button").removeAttr("disabled")
+		},
+  		success: function(result) {
+        			path = result['filename']
+					myDate = new Date();
+					current = myDate.getFullYear()+"-"+myDate.getMonth()+"-"+myDate.getDate()+" "+myDate.getHours()+":"+myDate.getMinutes()+":"+myDate.getSeconds()
+					enableSuccess("/static/out/"+path, "click here to get the result(Last run time:"+current+")")
+				},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			console.log(XMLHttpRequest, textStatus, errorThrown)
+			enableDanger(XMLHttpRequest.status + ": " + XMLHttpRequest.responseText)
+		},
+		type: "GET",
+  		dataType: "json"
+	});
+}
+
+function disableAllAlert() {
+	$("#success").hide()
+	$("#info").hide()
+	$("#danger").hide()
+}
+
+function enableSuccess(url, text) {
+	disableAllAlert()
+	$("#success a").attr("href", url)
+	$("#success a").text(text)
+	$("#success").show()
+}
+
+function enableInfo() {
+	disableAllAlert()
+	$("#info").show()
+}
+
+function enableDanger(text) {
+	disableAllAlert()
+	$("#danger").text(text)
+	$("#danger").show()
+}
+</script>

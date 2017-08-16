@@ -1,0 +1,472 @@
+{% load static %}
+<html>
+<head>
+	<title>Dima——EntityMatching</title>
+	<script type="text/JavaScript" src="{% static "scripts/jquery-3.2.1.min.js" %}"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+	<link rel="stylesheet" href="{% static "css/bootstrap-editable.css" %}">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/extensions/editable/bootstrap-table-editable.min.js"></script>
+	<script type="text/JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.1/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+	<script type="text/JavaScript" src="{% static "scripts/index.js" %}"></script>
+	<script>
+		$(document).ready(function(){
+			init('{{ csrf_token }}')
+		});
+	</script>
+	<style type="text/css">
+		textarea.form-control {
+			width: 1000px;
+		}
+	</style>
+	</head>  
+<body>
+<style type="text/css">
+		.sqlinput {
+			width:1000px
+		}
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.tsinghua.edu.cn/publish/newthuen/index.html" style="padding-top: 0px;padding-bottom: 0px;padding-right: 0px;">
+        <img alt="Brand" src="/static/images/tsinghua.jpg" style="width: 50px;">
+      </a>
+      <a class="navbar-brand" href="http://www.vldb.org/2017/" style="padding-top: 0px;padding-bottom: 0px;">
+        <img alt="Brand" src="/static/images/vldb.png" style="width: 80px;">
+	</a>
+     <a class="navbar-brand" href="#" style="padding-top: 0px;padding-bottom: 0px;">
+        <h3 style="margin-top: 15px;">Demonstration on Dima System</h3>
+	</a>
+    </div>
+	
+  </div>
+	<div class="alert alert-danger" style="display: none;" role="alert" id="danger"><strong>ERROR: </strong>Dima Failed, please recheck the input file</div>
+	<div class="alert alert-info" style="display: none;" role="alert" id="info"><strong>LOADING: </strong>Dima Engine is running, please wait</div>
+	<div class="alert alert-success" style="display: none;" role="alert" id="success">
+	<strong>SUCCESS: </strong>
+  	<a href="#" class="alert-link">Please click here to get the result</a>
+	</div>
+
+</nav>
+<div class="container-fluid" style="padding-top:50px;">
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active" id="restaurant"><a href="javascript:void(0);" onclick="toggleNav('0', '{{ csrf_token }}')">Restaurant</a></li>
+  <li role="presentation" id="product"><a href="javascript:void(0);" onclick="toggleNav('1', '{{ csrf_token }}')">Product</a></li>
+  <li role="presentation" id="academic"><a href="javascript:void(0);" onclick="toggleNav('2', '{{ csrf_token }}')">Academic</a></li>
+  <li role="presentation" id="about"><a href="javascript:void(0);" onclick="toggleNav('3', '{{ csrf_token }}')">About Dima</a></li>
+</ul>
+</div>
+<div id="myModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title" id="myModalLabel">New Rule</h4>
+        </div>
+        <div class="modal-body">
+		<div class="form-group">
+    	<label>Left Table Field</label>
+    	<input type="text" class="form-control" id="left" placeholder="name">
+  		</div>
+  		<div class="form-group">
+    	<label>Right Table Field</label>
+    	<input type="text" class="form-control" id="right" placeholder="name">
+  		</div>
+		<div class="form-group">
+		<label>Similarity Function</label>
+		<select id="simFunc" class="selectpicker show-tick form-control">
+        <option value="EDSIMILARITY">EDSIMILARITY</option>
+        <option value="JACCARDSIMILARITY">JACCARDSIMILARITY</option>
+        </select>
+		</div>
+		<div class="form-group">
+    	<label>Threshold</label>
+    	<input type="text" class="form-control" id="threshold" placeholder="0.8">
+  		</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="closeModal()">Close</button>
+          <button type="button" class="btn btn-primary" onclick="closeModalAndSubmit()">Save changes</button>
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+ </div>
+<div id="myModal1" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModali1()"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title" id="myModalLabel">New Rule</h4>
+        </div>
+        <div class="modal-body">
+		<div class="form-group">
+    	<label>Input The simSQL</label>
+    	<input type="text" class="form-control" id="simsql" placeholder="SELECT ... FROM ... JOIN ... ON ...">
+  		</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="closeModal1()">Close</button>
+          <button type="button" class="btn btn-primary" onclick="closeModalAndSubmit1()">Save changes</button>
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+ </div>
+
+<div class="container-fluid" id="abouts" style="display:none">
+	<div class="jumbotron masthead">
+    <div class="container">
+      <h1 class="text-center">Dima</h1>
+      <h2 class="text-center">Massive And Scalable Distributed In-memory Similarity Based Query System Built on Spark Core</h2>
+      <p class="masthead-button-links">
+        <a class="btn btn-lg btn-primary btn-shadow center-block" href="https://github.com/TsinghuaDatabaseGroup/Dima" target="_blank" role="button" style="width: 114px;">Download</a>
+      </p>
+    </div>
+  </div>
+	
+	<div class="col-md-3">
+        <div class="thumbnail" style="height: 300px;background: #eee;">
+          <div title="Fast" target="_blank">
+            <h2 class="text-center"><strong>Fast</strong></h3>
+          </div>
+          <div class="caption">
+            <p>Similarity-based methods in Dima outperformed the baseline approaches by 1-2 orders of magnitude for all threshold and data size. Spark core offers distributed in-memory computation environment to support the system can run without writing to disk.</p>
+          </div>
+        </div>
+      </div>
+
+	<div class="col-md-3">
+        <div class="thumbnail" style="height: 300px;background: #eee;">
+          <div title="Scalable" target="_blank">
+            <h2 class="text-center" style="background: #eee;"><strong>Scalable</strong></h3>
+          </div>
+          <div class="caption">
+            <p>Dima proposed novel signature generation methodsi and data partition strategy to balance the work load in the clusters so that the performance will increase almost linearly as number of core increasing.</p>
+          </div>
+        </div>
+      </div>
+
+	<div class="col-md-3">
+        <div class="thumbnail" style="height: 300px;background: #eee;">
+          <div title="Huge" target="_blank">
+            <h2 class="text-center" style="background: #eee;"><strong>Huge</strong></h3>
+          </div>
+          <div class="caption">
+            <p>Distributed computation can make thousands of machines work together, such large cluster means large storage and computation capability to support huge data query processing.</p>
+          </div>
+        </div>
+      </div>
+	<div class="col-md-3">
+        <div class="thumbnail" style="height: 300px;background: #eee;">
+          <div title="Easy" target="_blank">
+            <h2 class="text-center" style="background: #eee;"><strong>Easy</strong></h3>
+          </div>
+          <div class="caption">
+            <p>Dima is easy to deploy on any cluster as spark just with several more simple configurations. Dima supports standard sql query and sql-shell can be used directly by data or BI analyst. For programmer, Dima offer dataframe API. In the future, Dima will support more language API.</p>
+          </div>
+        </div>
+      </div>
+<div class="row">
+<div class="col-md-12">
+	<div class="jumbotron masthead">
+    <div class="container">
+      <p>
+       Data analysts in industries spend more than 80% of time on data cleaning and integration in the whole process of data analytics due to data errors and inconsistencies. Similarity-based query processing is an important way to tolerate the errors and inconsistencies. However, there is no SQL-based system that can support similarity-based query processing. In this paper, we develop a distributed in-memory similarity-based query processing system called Dima. Dima supports four core similarity operations, i.e., similarity selection, similarity join, top-k selection and top-k join. Dima extends SQL for users to easily invoke these similarity-based operations in their data analysis tasks. To avoid expensive data transformation in a distributed environment, we propose selectable signatures where two records are similar if they share common signatures. More importantly, we can adaptively select the signatures to balance the workload. Dima builds signature-based global indexes and local indexes to support similarity operations. Since Spark is one of the widely adopted distributed in-memory computing systems, we have seamlessly integrated Dima into Spark and developed e ective query optimization techniques in Spark. To the best of our knowledge, this is the rst fulledged distributed in-memory system that can support similarity-based query processing. We have conducted extensive experiments on four real-world datasets. Experimental results show that Dima outperforms state-of-the-art studies by 1-3 orders of magnitude and has good scalability. 
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+			<section id="Examples">
+              <div class="page-header">
+                  <hr><h1>Query Examples</h1><hr>
+                  <h2><small>Dima extends SQL and define simSQL by adding four operations to support similarity selection/join.</small></h2></div>
+              <div align="center">
+              <img src="{% static "images/example.jpg" %}" alt="Dima" width="40%">
+              </div><br>
+              <hr>
+          </section>
+
+			<section id="Framework">
+              <div class="page-header">
+                  <hr><h1>Framework</h1><hr>
+              <div align="center">
+              <img src="{% static "images/framework.jpg" %}" alt="Dima" width="70%">
+              </div><br>
+              <hr>
+          </section>
+
+	<section id="About" style="padding-bottom:50px">
+              <div class="page-header">
+                  <h1>About</h1><hr>
+                  <h2><small>
+					Dima is being developed by <a href="#" target="_blank">Ji Sun</a>, <a href="#" target="_blank">Zeyuan Shang</a>, <a href="#" target="_blank">Deng Dong</a> and <a href="#" target="_blank">Prof. Guoliang Li</a> in collaboration with <a href="#" target="_blank">Prof. Zhifeng Bao</a>
+                      <br><br>
+                      If you have any comments or questions, please feel free to email us at <a href="mailto:liguoliang@tsinghua.edu.cn">liguoliang [AT] tsinghua.edu.cn</a>.
+                  </small></h2></div>
+          </section>
+
+</div>
+
+
+
+<div class="container-fluid" id="contents">
+<div class="row">
+ 	<div class="col-md-12" id = "chooseLeft">
+		<h3 id='left_table_name'>Restaurants</h3>
+		<!-- <ul class="nav nav-pills" id='leftTab'>
+			<li role="presentation" class="active"><a href="javascript:void(0);" onclick="chooseTable('left', this)">restaurant</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('left', this)">GoogleProducts</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('left', this)">AmazonProducts</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('left', this)">Scholar</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('left', this)">DBLP</a></li>
+		</ul>-->
+		<table id="lefttable"></table>
+	</div>
+	<div class="col-md-12" id = "chooseRight">
+		<h3 id='right_table_name'>Restaurants</h3>
+		<!--<ul class="nav nav-pills" id='rightTab'>
+			<li role="presentation" class="active"><a href="javascript:void(0);" onclick="chooseTable('right', this)">restaurant</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('right', this)">GoogleProducts</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('right', this)">AmazonProducts</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('right', this)">Scholar</a></li>
+			<li role="presentation"><a href="javascript:void(0);" onclick="chooseTable('right', this)">DBLP</a></li>
+		</ul>-->
+		<table id="righttable"></table>
+	</div>
+</div>
+<div class="row">
+  	<div class="col-md-12" id = "chooseRule">
+		<h3>Edit Rules Set</h3>
+		<div id="toolbar" class="btn-group">
+            <button id="btn_add" type="button" onclick="openModal()" class="btn btn-default">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>ADD
+            </button>
+            <button id="btn_delete" type="button" onclick="removeRule(this)" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>REMOVE
+            </button>
+			<button id="btn_delete" type="button" onclick="showResult('result', 0, window.leftTableName, window.rightTableName, window.ruleName)" class="btn btn-default">
+                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>RUN
+            </button>
+        </div>
+		<table id="rule"></table>
+	</div>
+	<div class="col-md-12" id = "chooseRuleBySql" style="padding-bottom: 50px;">
+		<h3>Apply Rules By Sql</h3>
+		<div id="toolbar1" class="btn-group">
+            <button id="btn_add" type="button" onclick="openModal1()" class="btn btn-default">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>ADD
+            </button>
+            <button id="btn_delete" type="button" onclick="removeSql(this)" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>REMOVE
+            </button>
+			<button id="btn_delete" type="button" onclick="showResult('result', 1, window.leftTableName, window.rightTableName, window.sqlName)" class="btn btn-default">
+                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>RUN
+            </button>
+        </div>
+		<table id="sql"></table>
+	</div>
+</div>
+<div class="row">
+<div class="col-md-12" style="padding-bottom: 50px;">
+<table id="result"></table>
+</div>
+</div>
+</div></div>
+</div>
+<div id="footer" class="container">
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar-inner navbar-content-center">
+        <p class="text-muted credit" style="padding: 10px;">
+             Copyright © 2016-2017 Dbgroup @ Tsinghua University. All rights reserved. 
+        </p>
+    </div>
+</nav>
+</body>
+<script>
+function openModal() {
+	$('#myModal').attr('style', 'display: block')
+}
+
+function closeModal() {
+	$('#myModal').attr('style', 'display: none')
+}
+
+function closeModalAndSubmit() {
+	left = $('input#left').val()
+	right = $('input#right').val()
+	simFunc = $('select#simFunc').val()
+	threshold = $('input#threshold').val()
+	console.log(left, right, simFunc, threshold)
+	if (left != "" && right != "" && threshold != "") {
+		addRule(left, right, simFunc, threshold)	
+	}
+	return
+}
+
+function openModal1() {
+	$('#myModal1').attr('style', 'display: block')
+}
+
+function closeModal1() {
+	$('#myModal1').attr('style', 'display: none')
+}
+
+function closeModalAndSubmit1() {
+	sql = $('input#simsql').val()
+	console.log(sql)
+	if (sql != "") {
+		addSql(sql)	
+	}
+	return
+}
+
+
+function addRule(left, right, simFunc, threshold) {
+	$('#rule').bootstrapTable('append', [{id: (new Date().getTime()).toString(), left: left, right: right, simFunc: simFunc, threshold: threshold}]);
+    $('#rule').bootstrapTable('scrollTo', 'bottom');
+	data = JSON.stringify($('#rule').bootstrapTable('getData'))
+	console.log(data)
+	$.post("/entity_matching/test/rule/", { path: window.ruleName, rules: data , csrfmiddlewaretoken: '{{ csrf_token }}'}, function(request){$('#rule').bootstrapTable('refresh'); closeModal()});
+}
+
+function removeRule(ele) {
+	var ids = $.map($('#rule').bootstrapTable('getSelections'), function (row) {
+		return row.id;
+	});
+	$('#rule').bootstrapTable('remove', {
+		field: 'id',
+		values: ids
+	});
+	data = JSON.stringify($('#rule').bootstrapTable('getData'))
+	$.post("/entity_matching/test/rule/", { path: window.ruleName, rules: data , csrfmiddlewaretoken: '{{ csrf_token }}'}, function(request){$('#rule').bootstrapTable('refresh')});
+}
+
+function addSql(sql) {
+	leftSignature = window.leftTableName.slice(0, -5)
+	rightSignature = window.rightTableName.slice(0, -5)
+	if (leftSignature == rightSignature) {
+		rightSignature = rightSignature + '_1'
+	}
+	$('table#sql').bootstrapTable('append', [{id: (new Date().getTime()).toString(), leftSignature: leftSignature, rightSignature: rightSignature, sql: sql}]);
+    $('table#sql').bootstrapTable('scrollTo', 'bottom');
+	data = JSON.stringify($('table#sql').bootstrapTable('getData'))
+	console.log(data)
+	$.post("/entity_matching/test/sql/", { path: window.sqlName, sqls: data , csrfmiddlewaretoken: '{{ csrf_token }}'}, function(request){closeModal1()});
+}
+
+function removeSql(ele) {
+	var ids = $.map($('table#sql').bootstrapTable('getSelections'), function (row) {
+		return row.id;
+	});
+	$('table#sql').bootstrapTable('remove', {
+		field: 'id',
+		values: ids
+	});
+	data = JSON.stringify($('table#sql').bootstrapTable('getData'))
+	$.post("/entity_matching/test/sql/", { path: window.sqlName, sqls: data, csrfmiddlewaretoken: '{{ csrf_token }}'}, function(request){});
+}
+
+
+function getDataFileList(ele) {
+	$.get("/entity_matching/test/datafile/", function(result){
+    	data = result['datafile']
+		$(ele).empty()
+		for (var i = 0; i < data.length; i ++) {
+			$(ele).append('<option value ="' + data[i] + '">' + data[i] + '</option>')
+		}
+  	});
+}
+function getRuleFileList(ele) {
+	$.get("/entity_matching/test/rulefile/", function(result){
+    	data = result['rulefile']
+		$(ele).empty()
+		for (var i = 0; i < data.length; i ++) {
+			$(ele).append('<option value ="' + data[i] + '">' + data[i] + '</option>')
+		}
+  	});
+}
+function callEntityMatching() {
+	left = $("#left").val()
+	right = $("#right").val()
+	rule = $('#rule').val()
+	if (left == "null") {
+		alert("You must choose one data file as input of the left table!")
+		return
+	} else if (right == "null") {
+		alert("You must choose one data file as input of the right table!")
+		return
+	} else if (rule == "null") {
+		alert("You must choose one rule file!")
+		return
+	}
+	$.ajax({
+  		url: "/entity_matching/test/entity_matching/",
+  		data: {
+			"left": left,
+			"right": right,
+			"rule": rule
+		},
+		beforeSend: function(request) {
+			$("button").attr("disabled", "disabled")
+			enableInfo()
+		},
+		complete: function(request) {
+			$("button").removeAttr("disabled")
+		},
+  		success: function(result) {
+        			path = result['filename']
+					myDate = new Date();
+					current = myDate.getFullYear()+"-"+myDate.getMonth()+"-"+myDate.getDate()+" "+myDate.getHours()+":"+myDate.getMinutes()+":"+myDate.getSeconds()
+					enableSuccess("/static/out/"+path, "click here to get the result(Last run time:"+current+")")
+				},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			console.log(XMLHttpRequest, textStatus, errorThrown)
+			enableDanger(XMLHttpRequest.status + ": " + XMLHttpRequest.responseText)
+		},
+		type: "GET",
+  		dataType: "json"
+	});
+}
+
+function disableAllAlert() {
+	$("#success").hide()
+	$("#info").hide()
+	$("#danger").hide()
+}
+
+function enableSuccess(url, text) {
+	disableAllAlert()
+	$("#success a").text(text)
+	$("#success").show()
+	setTimeout("disableAllAlert();",3000)
+}
+
+function enableInfo() {
+	disableAllAlert()
+	$("#info").show()
+}
+
+function enableDanger(text) {
+	disableAllAlert()
+	$("#danger").text(text)
+	$("#danger").show()
+	setTimeout("disableAllAlert();",3000)
+}
+
+function chooseTable(which, tableName) {
+	if (which == 'left') {
+		window.leftTableName = tableName + '.json'
+		getColumns('lefttable', window.leftTableName, 'leftTab', loadData)
+	} else if (which == 'right') {
+		window.rightTableName = tableName + '.json'
+		getColumns('righttable', window.rightTableName, 'rightTab', loadData)
+	}
+}
+</script>
